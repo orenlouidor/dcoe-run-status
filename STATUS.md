@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-08 12:26:14 (Israel time)
+# DCOE sweeps -- status at 2026-11-08 12:41:13 (Israel time)
 
 Updated every 15 minutes by scripts/exec/scheduler.py. 47.2 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -6,26 +6,26 @@ Updated every 15 minutes by scripts/exec/scheduler.py. 47.2 sandbox GPU-hours us
 
 | Sweep | Fold | Status | Created | Started | Ended | Run dir | Patients | Notes | Partition | Queued for | Expected start | Reason | Start | End | Running for | Expected end | Patients curated | Partition | Start | End | Running for | Expected end | Epochs | Val MAE d/s/m | Partition | Test MAE dPAP | Test MAE sPAP | Test MAE mPAP |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| frames_v3_cv5_mcvp1hz_cond_any | f0 | Before Curation | 11-07 09:05 |  |  |  | 940 / 314 / 314 |  | cpu | 27h20 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_cond_any | f2 | Before Curation | 11-07 09:05 |  |  |  | 941 / 313 / 314 |  | cpu | 27h20 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_cond_any | f1 | Before Curation | 11-07 09:05 |  |  |  | 940 / 314 / 314 |  | cpu | 27h20 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any | f0 | Before Curation | 11-07 09:05 |  |  |  | 940 / 314 / 314 |  | cpu | 27h35 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any | f2 | Before Curation | 11-07 09:05 |  |  |  | 941 / 313 / 314 |  | cpu | 27h35 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any | f1 | Before Curation | 11-07 09:05 |  |  |  | 940 / 314 / 314 |  | cpu | 27h35 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_mcvp1hz_cond_any | f3 | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_mcvp1hz_cond_any | f4 | Before Curation | 11-08 10:53 |  |  |  | 941 / 314 / 313 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_mcvp1hz_cond_any_units3 | f0 | Done | 11-07 15:46 | 11-07 15:46 | 11-07 15:57 | run_20261107_154645_frames_v3_cv5_mcvp1hz_cond_any_units3_f0 | 754 / 252 / 262 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 15:46 | 11-07 15:57 | 10m | Done | 6 | 2.27 / 6.97 / 3.56 | sandbox | 3.34 | 7.76 | 4.54 |
 | frames_v3_cv5_mcvp1hz_cond_any_units3 | f2 | Done | 11-07 15:03 | 11-07 15:03 | 11-07 15:14 | run_20261107_150346_frames_v3_cv5_mcvp1hz_cond_any_units3_f2 | 771 / 249 / 248 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 15:03 | 11-07 15:14 | 10m | Done | 6 | 5.59 / 11.01 / 7.49 | sandbox | 2.98 | 7.45 | 4.22 |
 | frames_v3_cv5_mcvp1hz_cond_any_units3 | f1 | Done | 11-07 16:20 | 11-07 16:20 | 11-07 16:31 | run_20261107_162044_frames_v3_cv5_mcvp1hz_cond_any_units3_f1 | 768 / 248 / 252 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 16:20 | 11-07 16:31 | 10m | Done | 6 | 4.81 / 16.69 / 9.54 | sandbox | 3.18 | 7.68 | 4.33 |
-| frames_v3_cv5_mcvp1hz_cond_any_units3 | f3 | Before Curation | 11-07 13:45 |  |  |  | 762 / 257 / 249 |  | cpu | 22h40 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_cond_any_units3 | f4 | Before Curation | 11-07 14:30 |  |  |  | 749 / 262 / 257 |  | cpu | 21h55 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any_units3 | f3 | Before Curation | 11-07 13:45 |  |  |  | 762 / 257 / 249 |  | cpu | 22h55 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any_units3 | f4 | Before Curation | 11-07 14:30 |  |  |  | 749 / 262 / 257 |  | cpu | 22h10 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_cond_any | f0 | Done | 11-07 07:15 | 11-07 07:15 | 11-07 08:40 | run_20261107_071510_frames_v3_cv5_cond_any_f0 | 940 / 314 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:15 | 11-07 08:40 | 1h25 | Done | 6 | 1.14 / 8.87 / 4.63 | power-gpu | 3.48 | 7.71 | 4.68 |
 | frames_v3_cv5_cond_any | f2 | Done | 11-07 07:40 | 11-07 07:40 | 11-07 08:32 | run_20261107_074018_frames_v3_cv5_cond_any_f2 | 941 / 313 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:40 | 11-07 08:32 | 52m | Done | 6 | 7.92 / 9.78 / 9.54 | power-gpu | 3.26 | 7.40 | 4.30 |
 | frames_v3_cv5_cond_any | f1 | Done | 11-07 07:39 | 11-07 07:39 | 11-07 08:54 | run_20261107_073950_frames_v3_cv5_cond_any_f1 | 940 / 314 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:39 | 11-07 08:54 | 1h14 | Done | 7 | 4.39 / 5.20 / 4.94 | power-gpu | 3.46 | 8.59 | 5.08 |
 | frames_v3_cv5_cond_any | f3 | Done | 11-07 07:40 | 11-07 07:40 | 11-07 09:06 | run_20261107_074020_frames_v3_cv5_cond_any_f3 | 942 / 313 / 313 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:40 | 11-07 09:06 | 1h25 | Done | 7 | 4.37 / 7.44 / 3.86 | power-gpu | 3.55 | 8.32 | 4.75 |
-| frames_v3_cv5_cond_any | f4 | In Training | 11-08 09:29 |  |  | run_20261108_115317_frames_v3_cv5_cond_any_f4 | 941 / 314 / 313 |  |  |  |  |  |  | 11-08 11:10 |  | Done |  | cpu | 11-08 11:53 | (11-08 15:02) | 33m | (11-08 15:02) | 1 | 1.35 / 3.95 / 1.97 | sandbox |  |  |  |
-| frames_v3_cv5_ctx_drugs | f0 | In Training | 11-08 09:48 | 11-08 11:10 |  | run_20261108_120926_frames_v3_cv5_ctx_drugs_f0 | 940 / 314 / 314 |  |  |  |  |  | 11-08 11:10 | 11-08 12:04 | 54m | Done |  | cpu | 11-08 12:09 | (11-08 14:14) | 17m | (11-08 14:14) |  | 1.03 / 9.20 / 4.83 | sandbox |  |  |  |
+| frames_v3_cv5_cond_any | f4 | In Training | 11-08 09:29 |  |  | run_20261108_115317_frames_v3_cv5_cond_any_f4 | 941 / 314 / 313 |  |  |  |  |  |  | 11-08 11:10 |  | Done |  | cpu | 11-08 11:53 | (11-08 15:02) | 48m | (11-08 15:02) | 1 | 1.35 / 3.95 / 1.97 | sandbox |  |  |  |
+| frames_v3_cv5_ctx_drugs | f0 | In Training | 11-08 09:48 | 11-08 11:10 |  | run_20261108_120926_frames_v3_cv5_ctx_drugs_f0 | 940 / 314 / 314 |  |  |  |  |  | 11-08 11:10 | 11-08 12:04 | 54m | Done |  | cpu | 11-08 12:09 | (11-08 14:14) | 32m | (11-08 14:14) |  | 1.24 / 9.01 / 5.01 | sandbox |  |  |  |
 | frames_v3_cv5_ctx_drugs | f2 | Done | 11-07 00:34 | 11-07 00:34 | 11-07 01:28 | run_20261107_003401_frames_v3_cv5_ctx_drugs_f2 | 941 / 313 / 314 | 11-08 12:04 cur 327893 cancelled: the fold was already done |  |  |  |  |  |  |  | Done |  |  | 11-07 00:34 | 11-07 01:28 | 54m | Done | 6 | 9.34 / 13.16 / 11.38 | power-gpu | 3.54 | 8.77 | 5.08 |
 | frames_v3_cv5_ctx_drugs | f1 | Done | 11-06 23:14 | 11-06 23:14 | 11-07 02:30 | run_20261106_231448_frames_v3_cv5_ctx_drugs_f1 | 940 / 314 / 314 | 11-08 12:04 cur 327848 cancelled: the fold was already done |  |  |  |  |  |  |  | Done |  |  | 11-06 23:14 | 11-07 02:30 | 3h15 | Done | 6 | 1.60 / 5.64 / 2.02 | sandbox | 3.53 | 9.01 | 5.26 |
 | frames_v3_cv5_ctx_drugs | f3 | Done | 11-07 06:06 | 11-07 06:06 | 11-07 07:13 | run_20261107_060605_frames_v3_cv5_ctx_drugs_f3 | 942 / 313 / 313 | 11-08 12:04 cur 327849 cancelled: the fold was already done |  |  |  |  |  |  |  | Done |  |  | 11-07 06:06 | 11-07 07:13 | 1h07 | Done | 6 | 4.37 / 6.33 / 4.00 | power-gpu | 3.58 | 8.58 | 4.78 |
-| frames_v3_cv5_ctx_drugs | f4 | In Curation | 11-08 08:23 | 11-08 12:04 |  |  | 941 / 314 / 313 |  |  |  |  |  | 11-08 12:04 | (11-08 12:41) | 21m | (11-08 12:41) | train 917/941 (97%); validation 0/314; test 0/313 | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_drugs | f4 | In Curation | 11-08 08:23 | 11-08 12:04 |  |  | 941 / 314 / 313 |  |  |  |  |  | 11-08 12:04 | (11-08 13:05) | 36m | (11-08 13:05) | train 0/941 kept; validation 0/314; test 0/313 | cpu |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_cond_known | f0 | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_cond_known | f2 | Before Curation | 11-08 10:53 |  |  |  | 941 / 313 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_cond_known | f1 | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -36,21 +36,21 @@ Updated every 15 minutes by scripts/exec/scheduler.py. 47.2 sandbox GPU-hours us
 | frames_v3_cv5_echo | f1 | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_echo | f3 | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_echo | f4 | Before Curation | 11-08 10:53 |  |  |  | 941 / 314 / 313 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_rhythmvent | f0 | In Curation | 11-08 09:49 | 11-08 12:11 |  |  | 940 / 314 / 314 |  |  |  |  |  | 11-08 12:11 | (11-08 12:39) | 15m | (11-08 12:39) | train 838/940 (89%); validation 0/314; test 0/314 | cpu |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_rhythmvent | f2 | In Curation | 11-08 09:49 | 11-08 12:11 |  |  | 941 / 313 / 314 |  |  |  |  |  | 11-08 12:11 | (11-08 12:36) | 15m | (11-08 12:36) | train 924/941 (98%); validation 0/313; test 0/314 | cpu |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_rhythmvent | f1 | Before Curation | 11-08 09:49 |  |  |  | 940 / 314 / 314 |  | cpu | 2h36 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_rhythmvent | f3 | Before Curation | 11-08 09:49 |  |  |  | 942 / 313 / 313 |  | cpu | 2h36 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_rhythmvent | f4 | Before Curation | 11-08 09:49 |  |  |  | 941 / 314 / 313 |  | cpu | 2h36 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f0 | In Curation | 11-08 09:49 | 11-08 12:11 |  |  | 940 / 314 / 314 |  |  |  |  |  | 11-08 12:11 | (11-08 13:02) | 30m | (11-08 13:02) | train 925/940 (98%); validation 0/314; test 0/314 | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f2 | In Curation | 11-08 09:49 | 11-08 12:11 |  |  | 941 / 313 / 314 |  |  |  |  |  | 11-08 12:11 | (11-08 13:01) | 30m | (11-08 13:01) | train 928/941 (99%); validation 0/313; test 0/314 | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f1 | Before Curation | 11-08 09:49 |  |  |  | 940 / 314 / 314 |  | cpu | 2h51 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f3 | Before Curation | 11-08 09:49 |  |  |  | 942 / 313 / 313 |  | cpu | 2h51 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f4 | Before Curation | 11-08 09:49 |  |  |  | 941 / 314 / 313 |  | cpu | 2h51 |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_unithours | f0 | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_unithours | f2 | Before Curation | 11-08 10:53 |  |  |  | 941 / 313 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_unithours | f1 | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_unithours | f3 | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_unithours | f4 | Before Curation | 11-06 18:16 |  |  |  | 941 / 314 / 313 |  | cpu | 1h19 | (11-08 20:11) | Resources |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_unithours | f4 | Before Curation | 11-06 18:16 |  |  |  | 941 / 314 / 313 |  | cpu | 1h34 | (11-08 20:11) | Resources |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_all | f0 | Before Curation | 11-07 12:15 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for its turn |  | 11-08 11:06 |  | Done |  | power-gpu |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_all | f2 | Before Curation | 11-08 10:53 |  |  |  | 941 / 313 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_all | f1 | Before Curation | 11-06 18:16 |  |  |  | 940 / 314 / 314 |  | cpu | 42h09 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_all | f1 | Before Curation | 11-06 18:16 |  |  |  | 940 / 314 / 314 |  | cpu | 42h24 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_all | f3 | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_all | f4 | Before Curation | 11-06 18:16 |  |  |  | 941 / 314 / 313 |  | cpu | 42h09 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_ctx_all | f4 | Before Curation | 11-06 18:16 |  |  |  | 941 / 314 / 313 |  | cpu | 42h24 |  | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_top10 | f0 | Done | 11-07 04:17 | 11-07 04:17 | 11-07 07:42 | run_20261107_041739_frames_v3_cv5_top10_f0 | 940 / 314 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 04:17 | 11-07 07:42 | 3h25 | Done | 6 | 1.50 / 9.14 / 3.75 | sandbox | 3.30 | 7.46 | 4.48 |
 | frames_v3_cv5_top10 | f2 | Done | 11-07 04:31 | 11-07 04:31 | 11-07 07:37 | run_20261107_043155_frames_v3_cv5_top10_f2 | 941 / 313 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 04:31 | 11-07 07:37 | 3h05 | Done | 6 | 6.73 / 6.60 / 7.06 | sandbox | 3.35 | 8.00 | 4.62 |
 | frames_v3_cv5_top10 | f1 | Done | 11-07 07:37 | 11-07 07:37 | 11-07 10:48 | run_20261107_073750_frames_v3_cv5_top10_f1 | 940 / 314 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:37 | 11-07 10:48 | 3h10 | Done | 6 | 3.32 / 3.25 / 3.36 | sandbox | 3.39 | 8.31 | 4.87 |
@@ -81,33 +81,33 @@ Updated every 15 minutes by scripts/exec/scheduler.py. 47.2 sandbox GPU-hours us
 
 | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|
-| compute-gpu | 31 | 4378/4960 | 582 | 241/248 | 6 | 0 | 0 |  |
+| compute-gpu | 31 | 4384/4960 | 576 | 242/248 | 5 | 0 | 0 |  |
 | cpu | 2 | 126/128 | 2 |  |  | 5 | 13 | Dependency x5, Priority x5, ReqNodeNotAvail, May be reserved for other job x1, Resources x2 |
-| power-gpu | 31 | 4378/4960 | 582 | 241/248 | 6 | 0 | 1 | Priority x1 |
+| power-gpu | 31 | 4384/4960 | 576 | 242/248 | 5 | 0 | 1 | Priority x1 |
 | sandbox | 1 | 60/160 | 100 | 5/8 | 3 | 2 | 0 |  |
 
 ## My jobs
 
 | Job | Name | Partition | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|
-| 319999 | vscode | cpu | RUNNING | 4h02 | cpu-node-02 | 19:57:15 | 4c 32G |
-| 327850 | cur_frames_v3_cv5_ctx_drugs_f4 | cpu | RUNNING | 21m | cpu-node-01 | 7:38:44 | 12c 100G |
-| 328062 | cur_frames_v3_cv5_ctx_rhythmvent_f0 | cpu | RUNNING | 15m | cpu-node-02 | 7:44:58 | 12c 48G |
-| 328063 | cur_frames_v3_cv5_ctx_rhythmvent_f2 | cpu | RUNNING | 15m | cpu-node-02 | 7:44:58 | 12c 48G |
-| 328179 | scheduler | cpu | RUNNING | 15m | cpu-node-01 | 2-23:44:58 | 2c 2G |
-| 328356 | dcoe_frames_v3_cv5_cond_any_f4 | sandbox | RUNNING | 33m | sandbox | 3:26:48 | 10c 220000M |
-| 328397 | dcoe_frames_v3_cv5_ctx_drugs_f0 | sandbox | RUNNING | 17m | sandbox | 3:42:54 | 6c 220000M |
-| 319714 | cur_frames_v3_cv5_ctx_all_f1 | cpu | PENDING | 42h09 | Priority | 8:00:00 | 11c 48G |
-| 319715 | cur_frames_v3_cv5_ctx_all_f4 | cpu | PENDING | 42h09 | Priority | 8:00:00 | 11c 48G |
-| 323011 | cur_mcvp1hz_cond_any_f2 | cpu | PENDING | 27h20 | Priority | 8:00:00 | 16c 100G |
-| 323010 | cur_mcvp1hz_cond_any_f0 | cpu | PENDING | 27h20 | Priority | 8:00:00 | 16c 100G |
-| 323012 | cur_mcvp1hz_cond_any_f1 | cpu | PENDING | 27h20 | Dependency | 8:00:00 | 16c 100G |
-| 324114 | cur_mcvp1hz_cond_any_units3_f3 | cpu | PENDING | 22h40 | Priority | 8:00:00 | 16c 100G |
-| 324322 | cur_mcvp1hz_cond_any_units3_f4 | cpu | PENDING | 21h55 | Dependency | 8:00:00 | 16c 100G |
-| 328064 | cur_frames_v3_cv5_ctx_rhythmvent_f1 | cpu | PENDING | 2h36 | Dependency | 8:00:00 | 11c 48G |
-| 328066 | cur_frames_v3_cv5_ctx_rhythmvent_f4 | cpu | PENDING | 2h36 | Dependency | 8:00:00 | 11c 48G |
-| 328065 | cur_frames_v3_cv5_ctx_rhythmvent_f3 | cpu | PENDING | 2h36 | Dependency | 8:00:00 | 11c 48G |
-| 328212 | vscode | cpu | PENDING | 1h21 | Resources | 1-00:00:00 | 4c 32G |
-| 328213 | vscode | cpu | PENDING | 1h21 | ReqNodeNotAvail, May be reserved for other job | 1-00:00:00 | 4c 32G |
-| 328214 | cur_frames_v3_cv5_ctx_unithours_f4 | cpu | PENDING | 1h19 | Resources | 8:00:00 | 11c 100G |
-| 328061 | dcoe_frames_v3_cv5_ctx_drugs_f4 | power-gpu | PENDING | 2h36 | Priority | 8:00:00 | 12c 220000M |
+| 319999 | vscode | cpu | RUNNING | 4h17 | cpu-node-02 | 19:42:16 | 4c 32G |
+| 327850 | cur_frames_v3_cv5_ctx_drugs_f4 | cpu | RUNNING | 36m | cpu-node-01 | 7:23:45 | 12c 100G |
+| 328062 | cur_frames_v3_cv5_ctx_rhythmvent_f0 | cpu | RUNNING | 30m | cpu-node-02 | 7:29:59 | 12c 48G |
+| 328063 | cur_frames_v3_cv5_ctx_rhythmvent_f2 | cpu | RUNNING | 30m | cpu-node-02 | 7:29:59 | 12c 48G |
+| 328179 | scheduler | cpu | RUNNING | 30m | cpu-node-01 | 2-23:29:59 | 2c 2G |
+| 328356 | dcoe_frames_v3_cv5_cond_any_f4 | sandbox | RUNNING | 48m | sandbox | 3:11:49 | 10c 220000M |
+| 328397 | dcoe_frames_v3_cv5_ctx_drugs_f0 | sandbox | RUNNING | 32m | sandbox | 3:27:55 | 6c 220000M |
+| 319714 | cur_frames_v3_cv5_ctx_all_f1 | cpu | PENDING | 42h24 | Priority | 8:00:00 | 11c 48G |
+| 319715 | cur_frames_v3_cv5_ctx_all_f4 | cpu | PENDING | 42h24 | Priority | 8:00:00 | 11c 48G |
+| 323011 | cur_mcvp1hz_cond_any_f2 | cpu | PENDING | 27h35 | Priority | 8:00:00 | 16c 100G |
+| 323010 | cur_mcvp1hz_cond_any_f0 | cpu | PENDING | 27h35 | Priority | 8:00:00 | 16c 100G |
+| 323012 | cur_mcvp1hz_cond_any_f1 | cpu | PENDING | 27h35 | Dependency | 8:00:00 | 16c 100G |
+| 324114 | cur_mcvp1hz_cond_any_units3_f3 | cpu | PENDING | 22h55 | Priority | 8:00:00 | 16c 100G |
+| 324322 | cur_mcvp1hz_cond_any_units3_f4 | cpu | PENDING | 22h10 | Dependency | 8:00:00 | 16c 100G |
+| 328064 | cur_frames_v3_cv5_ctx_rhythmvent_f1 | cpu | PENDING | 2h51 | Dependency | 8:00:00 | 11c 48G |
+| 328066 | cur_frames_v3_cv5_ctx_rhythmvent_f4 | cpu | PENDING | 2h51 | Dependency | 8:00:00 | 11c 48G |
+| 328065 | cur_frames_v3_cv5_ctx_rhythmvent_f3 | cpu | PENDING | 2h51 | Dependency | 8:00:00 | 11c 48G |
+| 328212 | vscode | cpu | PENDING | 1h36 | Resources | 1-00:00:00 | 4c 32G |
+| 328213 | vscode | cpu | PENDING | 1h36 | ReqNodeNotAvail, May be reserved for other job | 1-00:00:00 | 4c 32G |
+| 328214 | cur_frames_v3_cv5_ctx_unithours_f4 | cpu | PENDING | 1h34 | Resources | 8:00:00 | 11c 100G |
+| 328061 | dcoe_frames_v3_cv5_ctx_drugs_f4 | power-gpu | PENDING | 2h51 | Priority | 8:00:00 | 12c 220000M |
