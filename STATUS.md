@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-08 21:37:36 (Israel time)
+# DCOE sweeps -- status at 2026-11-08 21:50:35 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 15 minutes by scripts/exec/scheduler.py. 63.7 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -6,16 +6,16 @@ Clusters: athena, tzag_elita. Updated every 15 minutes by scripts/exec/scheduler
 
 | Sweep | Fold | Cluster | Status | Created | Started | Ended | Run dir | Patients | Notes | Partition | Queued for | Expected start | Reason | Start | End | Running for | Expected end | Patients curated | Partition | Start | End | Running for | Expected end | Epochs | Val MAE d/s/m | Partition | Test MAE dPAP | Test MAE sPAP | Test MAE mPAP | Copied to |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| frames_v3_cv5_mcvp1hz_cond_any | f0 | tzag_elita | Before Training | 11-07 09:05 | 11-08 20:29 |  |  | 940 / 314 / 314 | 11-08 19:13 curation 300839 ended FAILED (exit 1:0); 11-08 19:13 cur 300839 ended FAILED (exit 1:0); rerun 1 | power-gpu | 32m | (11-09 17:00) | Priority | 11-08 20:29 | 11-08 20:56 | 26m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_cond_any | f2 | tzag_elita | Before Training | 11-07 09:05 | 11-08 20:56 |  |  | 941 / 313 / 314 | 11-08 19:13 curation 300842 ended FAILED (exit 1:0); 11-08 19:13 cur 300842 ended FAILED (exit 1:0); rerun 1 | power-gpu | 16m | (11-09 17:00) | Priority | 11-08 20:56 | 11-08 21:17 | 21m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_cond_any | f1 | tzag_elita | Before Curation | 11-07 09:05 |  |  |  | 940 / 314 / 314 |  | cpu | 36h31 | (11-15 06:00) | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any | f0 | tzag_elita | Before Training | 11-07 09:05 | 11-08 20:29 |  |  | 940 / 314 / 314 | 11-08 19:13 curation 300839 ended FAILED (exit 1:0); 11-08 19:13 cur 300839 ended FAILED (exit 1:0); rerun 1 | power-gpu | 45m | (11-09 18:00) | Priority | 11-08 20:29 | 11-08 20:56 | 26m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any | f2 | tzag_elita | Before Training | 11-07 09:05 | 11-08 20:56 |  |  | 941 / 313 / 314 | 11-08 19:13 curation 300842 ended FAILED (exit 1:0); 11-08 19:13 cur 300842 ended FAILED (exit 1:0); rerun 1 | power-gpu | 29m | (11-09 18:00) | Priority | 11-08 20:56 | 11-08 21:17 | 21m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any | f1 | tzag_elita | Before Curation | 11-07 09:05 |  |  |  | 940 / 314 / 314 |  | cpu | 36h44 | (11-15 06:00) | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_mcvp1hz_cond_any | f3 | tzag_elita | Done | 11-08 10:53 | 11-08 19:07 | 11-08 20:48 | run_20261108_203623_frames_v3_cv5_mcvp1hz_cond_any_f3 | 942 / 313 / 313 |  |  |  |  |  | 11-08 19:07 | 11-08 19:35 | 28m | Done |  | cpu | 11-08 20:36 | 11-08 20:48 | 12m | Done | 6 | 2.91 / 4.17 / 2.63 | sandbox | 3.20 | 7.16 | 4.20 | athena: copied |
-| frames_v3_cv5_mcvp1hz_cond_any | f4 | tzag_elita | Before Training | 11-08 10:53 | 11-08 21:13 |  |  | 941 / 314 / 313 | 11-08 19:13 curation 300844 ended FAILED (exit 1:0); 11-08 19:13 cur 300844 ended FAILED (exit 1:0); rerun 1 | power-gpu | 2m |  |  | 11-08 21:13 | 11-08 21:30 | 17m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any | f4 | tzag_elita | Before Training | 11-08 10:53 | 11-08 21:13 |  |  | 941 / 314 / 313 | 11-08 19:13 curation 300844 ended FAILED (exit 1:0); 11-08 19:13 cur 300844 ended FAILED (exit 1:0); rerun 1 | power-gpu | 15m | (11-09 21:00) | Priority | 11-08 21:13 | 11-08 21:30 | 17m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
 | frames_v3_cv5_mcvp1hz_cond_any_units3 | f0 | tzag_elita | Done | 11-07 15:46 | 11-07 15:46 | 11-07 15:57 | run_20261107_154645_frames_v3_cv5_mcvp1hz_cond_any_units3_f0 | 754 / 252 / 262 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 15:46 | 11-07 15:57 | 10m | Done | 6 | 2.27 / 6.97 / 3.56 | sandbox | 3.34 | 7.76 | 4.54 |  |
 | frames_v3_cv5_mcvp1hz_cond_any_units3 | f2 | tzag_elita | Done | 11-07 15:03 | 11-07 15:03 | 11-07 15:14 | run_20261107_150346_frames_v3_cv5_mcvp1hz_cond_any_units3_f2 | 771 / 249 / 248 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 15:03 | 11-07 15:14 | 10m | Done | 6 | 5.59 / 11.01 / 7.49 | sandbox | 2.98 | 7.45 | 4.22 |  |
 | frames_v3_cv5_mcvp1hz_cond_any_units3 | f1 | tzag_elita | Done | 11-07 16:20 | 11-07 16:20 | 11-07 16:31 | run_20261107_162044_frames_v3_cv5_mcvp1hz_cond_any_units3_f1 | 768 / 248 / 252 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 16:20 | 11-07 16:31 | 10m | Done | 6 | 4.81 / 16.69 / 9.54 | sandbox | 3.18 | 7.68 | 4.33 |  |
-| frames_v3_cv5_mcvp1hz_cond_any_units3 | f3 | tzag_elita | In Curation | 11-07 13:45 | 11-08 21:17 |  |  | 762 / 257 / 249 | 11-08 19:13 curation 300846 ended FAILED (exit 1:0); 11-08 19:13 cur 300846 ended FAILED (exit 1:0); rerun 1 |  |  |  |  | 11-08 21:17 | (11-08 21:46) | 20m | (11-08 21:46) | train 0/762 kept; validation 0/257; test 0/249 | cpu |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_cond_any_units3 | f4 | tzag_elita | Before Curation | 11-07 14:30 |  |  |  | 749 / 262 / 257 |  | cpu | 31h06 | (11-15 14:00) | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any_units3 | f3 | tzag_elita | Before Training | 11-07 13:45 | 11-08 21:17 |  |  | 762 / 257 / 249 | 11-08 19:13 curation 300846 ended FAILED (exit 1:0); 11-08 19:13 cur 300846 ended FAILED (exit 1:0); rerun 1 | power-gpu | 0m |  |  | 11-08 21:17 | 11-08 21:36 | 19m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_cond_any_units3 | f4 | tzag_elita | Before Curation | 11-07 14:30 |  |  |  | 749 / 262 / 257 |  | cpu | 31h19 | (11-15 06:00) | Priority |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_cond_any | f0 | tzag_elita | Done | 11-07 07:15 | 11-07 07:15 | 11-07 08:40 | run_20261107_071510_frames_v3_cv5_cond_any_f0 | 940 / 314 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:15 | 11-07 08:40 | 1h25 | Done | 6 | 1.14 / 8.87 / 4.63 | power-gpu | 3.48 | 7.71 | 4.68 |  |
 | frames_v3_cv5_cond_any | f2 | tzag_elita | Done | 11-07 07:40 | 11-07 07:40 | 11-07 08:32 | run_20261107_074018_frames_v3_cv5_cond_any_f2 | 941 / 313 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:40 | 11-07 08:32 | 52m | Done | 6 | 7.92 / 9.78 / 9.54 | power-gpu | 3.26 | 7.40 | 4.30 |  |
 | frames_v3_cv5_cond_any | f1 | tzag_elita | Done | 11-07 07:39 | 11-07 07:39 | 11-07 08:54 | run_20261107_073950_frames_v3_cv5_cond_any_f1 | 940 / 314 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:39 | 11-07 08:54 | 1h14 | Done | 7 | 4.39 / 5.20 / 4.94 | power-gpu | 3.46 | 8.59 | 5.08 |  |
@@ -26,31 +26,31 @@ Clusters: athena, tzag_elita. Updated every 15 minutes by scripts/exec/scheduler
 | frames_v3_cv5_ctx_drugs | f1 | tzag_elita | Done | 11-06 23:14 | 11-06 23:14 | 11-07 02:30 | run_20261106_231448_frames_v3_cv5_ctx_drugs_f1 | 940 / 314 / 314 | 11-08 12:04 cur 327848 cancelled: the fold was already done |  |  |  |  |  |  |  | Done |  |  | 11-06 23:14 | 11-07 02:30 | 3h15 | Done | 6 | 1.60 / 5.64 / 2.02 | sandbox | 3.53 | 9.01 | 5.26 |  |
 | frames_v3_cv5_ctx_drugs | f3 | tzag_elita | Done | 11-07 06:06 | 11-07 06:06 | 11-07 07:13 | run_20261107_060605_frames_v3_cv5_ctx_drugs_f3 | 942 / 313 / 313 | 11-08 12:04 cur 327849 cancelled: the fold was already done |  |  |  |  |  |  |  | Done |  |  | 11-07 06:06 | 11-07 07:13 | 1h07 | Done | 6 | 4.37 / 6.33 / 4.00 | power-gpu | 3.58 | 8.58 | 4.78 |  |
 | frames_v3_cv5_ctx_drugs | f4 | tzag_elita | Done | 11-08 08:23 | 11-08 12:04 | 11-08 19:26 | run_20261108_155629_frames_v3_cv5_ctx_drugs_f4 | 941 / 314 / 313 |  |  |  |  |  | 11-08 12:04 | 11-08 12:45 | 40m | Done |  | cpu | 11-08 15:56 | 11-08 19:26 | 3h30 | Done | 6 | 2.20 / 7.63 / 3.83 | sandbox | 3.42 | 8.54 | 4.96 | athena: copied |
-| frames_v3_cv5_cond_known | f0 | tzag_elita | In Curation | 11-08 10:53 | 11-08 21:30 |  |  | 940 / 314 / 314 | 11-08 19:13 curation 300847 ended FAILED (exit 1:0); 11-08 19:13 cur 300847 ended FAILED (exit 1:0); rerun 1 |  |  |  |  | 11-08 21:30 | (11-08 21:50) | 6m | (11-08 21:50) | train 361/940 (38%); validation 0/314; test 0/314 | cpu |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_cond_known | f2 | tzag_elita | Before Curation | 11-08 10:53 |  |  |  | 941 / 313 / 314 | 11-08 19:13 curation 300848 ended FAILED (exit 1:0); 11-08 19:13 cur 300848 ended FAILED (exit 1:0); rerun 1 | cpu | 14m | (11-09 05:17) | Resources |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_cond_known | f1 | tzag_elita | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 | 11-08 19:13 curation 300849 ended FAILED (exit 1:0); 11-08 19:13 cur 300849 ended FAILED (exit 1:0); rerun 1 | cpu | 2m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_cond_known | f3 | athena | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 | 11-08 19:13 curation 300850 ended FAILED (exit 1:0); 11-08 19:13 cur 300850 ended FAILED (exit 1:0); rerun 1 |  |  |  | waits for its turn |  | 11-08 19:09 |  | Done |  | a100-public,rtx6k-shared,l40s-shared,l40s-public |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_cond_known | f4 | tzag_elita | In Training | 11-08 10:53 |  |  | run_20261108_203822_frames_v3_cv5_cond_known_f4 | 941 / 314 / 313 |  |  |  |  |  |  | 11-08 19:37 |  | Done |  | cpu | 11-08 20:38 | (11-08 23:48) | 59m | (11-08 23:48) | 1 | 1.47 / 5.53 / 2.57 | sandbox |  |  |  |  |
-| frames_v3_cv5_echo | f0 | tzag_elita | Before Training | 11-08 10:53 | 11-08 19:37 |  |  | 940 / 314 / 314 |  | power-gpu | 1h01 | (11-09 17:00) | Priority | 11-08 19:37 | 11-08 20:28 | 51m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
-| frames_v3_cv5_echo | f2 | tzag_elita | Before Training | 11-08 10:53 | 11-08 20:16 |  |  | 941 / 313 / 314 |  | power-gpu | 13m | (11-09 20:00) | Priority | 11-08 20:16 | 11-08 21:13 | 57m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
-| frames_v3_cv5_echo | f1 |  | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_cond_known | f0 | tzag_elita | In Curation | 11-08 10:53 | 11-08 21:30 |  |  | 940 / 314 / 314 | 11-08 19:13 curation 300847 ended FAILED (exit 1:0); 11-08 19:13 cur 300847 ended FAILED (exit 1:0); rerun 1 |  |  |  |  | 11-08 21:30 | (11-08 22:03) | 19m | (11-08 22:03) | train 925/940 (98%); validation 0/314; test 0/314 | cpu |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_cond_known | f2 | tzag_elita | Before Training | 11-08 10:53 |  |  |  | 941 / 313 / 314 | 11-08 19:13 curation 300848 ended FAILED (exit 1:0); 11-08 19:13 cur 300848 ended FAILED (exit 1:0); rerun 1 | power-gpu | 0m |  |  |  | 11-08 21:37 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_cond_known | f1 | tzag_elita | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 | 11-08 19:13 curation 300849 ended FAILED (exit 1:0); 11-08 19:13 cur 300849 ended FAILED (exit 1:0); rerun 1 | cpu | 13m |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_cond_known | f3 | tzag_elita | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 | 11-08 19:13 curation 300850 ended FAILED (exit 1:0); 11-08 19:13 cur 300850 ended FAILED (exit 1:0); rerun 1 | cpu | 0m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_cond_known | f4 | tzag_elita | In Training | 11-08 10:53 |  |  | run_20261108_203822_frames_v3_cv5_cond_known_f4 | 941 / 314 / 313 |  |  |  |  |  |  | 11-08 19:37 |  | Done |  | cpu | 11-08 20:38 | (11-09 00:30) | 1h12 | (11-09 00:30) | 2 | 1.38 / 4.82 / 2.51 | sandbox |  |  |  |  |
+| frames_v3_cv5_echo | f0 | tzag_elita | Before Training | 11-08 10:53 | 11-08 19:37 |  |  | 940 / 314 / 314 |  | power-gpu | 1h14 | (11-09 18:00) | Priority | 11-08 19:37 | 11-08 20:28 | 51m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_echo | f2 | tzag_elita | Before Training | 11-08 10:53 | 11-08 20:16 |  |  | 941 / 313 / 314 |  | power-gpu | 26m | (11-09 18:00) | Priority | 11-08 20:16 | 11-08 21:13 | 57m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_echo | f1 | tzag_elita | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  | cpu | 0m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_echo | f3 |  | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_echo | f4 |  | Before Curation | 11-08 10:53 |  |  |  | 941 / 314 / 313 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_rhythmvent | f0 | tzag_elita | Done | 11-08 09:49 | 11-08 16:09 | 11-08 19:31 | run_20261108_160958_frames_v3_cv5_ctx_rhythmvent_f0 | 940 / 314 / 314 | 11-08 13:41 cur 328062 no new patient for 1h12; rerun 1 |  |  |  |  |  | 11-08 14:20 |  | Done |  | cpu | 11-08 16:09 | 11-08 19:31 | 3h22 | Done | 6 | 1.14 / 9.83 / 4.90 | sandbox | 3.33 | 8.35 | 4.83 | athena: copied |
-| frames_v3_cv5_ctx_rhythmvent | f2 | tzag_elita | In Training | 11-08 09:49 | 11-08 12:11 |  | run_20261108_204921_frames_v3_cv5_ctx_rhythmvent_f2 | 941 / 313 / 314 |  |  |  |  |  | 11-08 12:11 | 11-08 13:08 | 57m | Done |  | cpu | 11-08 20:49 | (11-08 23:43) | 48m | (11-08 23:43) | 1 | 9.06 / 12.07 / 10.84 | sandbox |  |  |  |  |
-| frames_v3_cv5_ctx_rhythmvent | f1 | tzag_elita | Before Training | 11-08 09:49 | 11-08 13:41 |  |  | 940 / 314 / 314 |  | power-gpu | 30m | (11-09 17:00) | Priority | 11-08 13:41 | 11-08 14:25 | 43m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
-| frames_v3_cv5_ctx_rhythmvent | f3 | tzag_elita | Before Training | 11-08 09:49 | 11-08 13:08 |  |  | 942 / 313 / 313 | 11-08 16:11 training 328814 ended CANCELLED (exit 0:0); 11-08 16:11 trn 328814 ended CANCELLED (exit 0:0); rerun 1 | power-gpu | 1h26 | (11-09 17:00) | Priority | 11-08 13:08 | 11-08 13:53 | 44m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
-| frames_v3_cv5_ctx_rhythmvent | f4 | tzag_elita | Before Training | 11-08 09:49 |  |  |  | 941 / 314 / 313 | 11-08 15:11 cur 328066 no new patient for 1h00; rerun 1 | power-gpu | 5h26 | (11-09 16:00) | Priority |  | 11-08 15:41 |  | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f2 | tzag_elita | In Training | 11-08 09:49 | 11-08 12:11 |  | run_20261108_204921_frames_v3_cv5_ctx_rhythmvent_f2 | 941 / 313 / 314 |  |  |  |  |  | 11-08 12:11 | 11-08 13:08 | 57m | Done |  | cpu | 11-08 20:49 | (11-08 23:46) | 1h01 | (11-08 23:46) | 2 | 9.06 / 12.07 / 10.84 | sandbox |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f1 | tzag_elita | Before Training | 11-08 09:49 | 11-08 13:41 |  |  | 940 / 314 / 314 |  | power-gpu | 43m | (11-09 18:00) | Priority | 11-08 13:41 | 11-08 14:25 | 43m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f3 | tzag_elita | Before Training | 11-08 09:49 | 11-08 13:08 |  |  | 942 / 313 / 313 | 11-08 16:11 training 328814 ended CANCELLED (exit 0:0); 11-08 16:11 trn 328814 ended CANCELLED (exit 0:0); rerun 1 | power-gpu | 1h39 | (11-09 17:00) | Priority | 11-08 13:08 | 11-08 13:53 | 44m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_ctx_rhythmvent | f4 | tzag_elita | Before Training | 11-08 09:49 |  |  |  | 941 / 314 / 313 | 11-08 15:11 cur 328066 no new patient for 1h00; rerun 1 | power-gpu | 5h39 | (11-09 17:00) | Priority |  | 11-08 15:41 |  | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
 | frames_v3_cv5_ctx_unithours | f0 |  | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_unithours | f2 |  | Before Curation | 11-08 10:53 |  |  |  | 941 / 313 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_unithours | f1 |  | Before Curation | 11-08 10:53 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_unithours | f3 |  | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_unithours | f4 | tzag_elita | Before Training | 11-06 18:16 | 11-08 12:45 |  |  | 941 / 314 / 313 | 11-08 16:11 training 328751 ended CANCELLED (exit 0:0); 11-08 16:11 trn 328751 ended CANCELLED (exit 0:0); rerun 1 | power-gpu | 5h26 | (11-09 16:00) | Priority | 11-08 12:45 | 11-08 13:36 | 51m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_ctx_unithours | f4 | tzag_elita | Before Training | 11-06 18:16 | 11-08 12:45 |  |  | 941 / 314 / 313 | 11-08 16:11 training 328751 ended CANCELLED (exit 0:0); 11-08 16:11 trn 328751 ended CANCELLED (exit 0:0); rerun 1 | power-gpu | 5h39 | (11-09 17:00) | Priority | 11-08 12:45 | 11-08 13:36 | 51m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
 | frames_v3_cv5_ctx_all | f0 | tzag_elita | Before Curation | 11-07 12:15 |  |  |  | 940 / 314 / 314 |  |  |  |  | waits for its turn |  | 11-08 11:06 |  | Done |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_ctx_all | f2 |  | Before Curation | 11-08 10:53 |  |  |  | 941 / 313 / 314 |  |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_all | f1 | tzag_elita | Before Training | 11-06 18:16 | 11-08 13:37 |  |  | 940 / 314 / 314 | 11-08 16:11 training 328919 ended CANCELLED (exit 0:0); 11-08 16:11 trn 328919 ended CANCELLED (exit 0:0); rerun 1 | power-gpu | 5h26 | (11-09 17:00) | Priority | 11-08 13:37 | 11-08 14:19 | 42m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_ctx_all | f1 | tzag_elita | Before Training | 11-06 18:16 | 11-08 13:37 |  |  | 940 / 314 / 314 | 11-08 16:11 training 328919 ended CANCELLED (exit 0:0); 11-08 16:11 trn 328919 ended CANCELLED (exit 0:0); rerun 1 | power-gpu | 5h39 | (11-09 17:00) | Priority | 11-08 13:37 | 11-08 14:19 | 42m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
 | frames_v3_cv5_ctx_all | f3 |  | Before Curation | 11-08 10:53 |  |  |  | 942 / 313 / 313 |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_ctx_all | f4 | tzag_elita | Before Training | 11-06 18:16 | 11-08 15:41 |  |  | 941 / 314 / 313 | 11-08 15:41 cur 319715 no new patient for 1h02; rerun 1 | power-gpu | 5h11 | (11-09 17:00) | Priority | 11-08 15:41 | 11-08 16:25 | 43m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
+| frames_v3_cv5_ctx_all | f4 | tzag_elita | Before Training | 11-06 18:16 | 11-08 15:41 |  |  | 941 / 314 / 313 | 11-08 15:41 cur 319715 no new patient for 1h02; rerun 1 | power-gpu | 5h24 | (11-09 17:00) | Priority | 11-08 15:41 | 11-08 16:25 | 43m | Done |  | cpu |  |  |  |  |  |  | power-gpu |  |  |  |  |
 | frames_v3_cv5_top10 | f0 | tzag_elita | Done | 11-07 04:17 | 11-07 04:17 | 11-07 07:42 | run_20261107_041739_frames_v3_cv5_top10_f0 | 940 / 314 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 04:17 | 11-07 07:42 | 3h25 | Done | 6 | 1.50 / 9.14 / 3.75 | sandbox | 3.30 | 7.46 | 4.48 |  |
 | frames_v3_cv5_top10 | f2 | tzag_elita | Done | 11-07 04:31 | 11-07 04:31 | 11-07 07:37 | run_20261107_043155_frames_v3_cv5_top10_f2 | 941 / 313 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 04:31 | 11-07 07:37 | 3h05 | Done | 6 | 6.73 / 6.60 / 7.06 | sandbox | 3.35 | 8.00 | 4.62 |  |
 | frames_v3_cv5_top10 | f1 | tzag_elita | Done | 11-07 07:37 | 11-07 07:37 | 11-07 10:48 | run_20261107_073750_frames_v3_cv5_top10_f1 | 940 / 314 / 314 |  |  |  |  |  |  |  |  | Done |  |  | 11-07 07:37 | 11-07 10:48 | 3h10 | Done | 6 | 3.32 / 3.25 / 3.36 | sandbox | 3.39 | 8.31 | 4.87 |  |
@@ -81,44 +81,48 @@ Clusters: athena, tzag_elita. Updated every 15 minutes by scripts/exec/scheduler
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 427/1024 | 597 | 63/64 | 1 | 0 | 0 |  |
-| athena | b200-shared | 2 | 101/256 | 155 | 16/16 | 0 | 0 | 0 |  |
-| athena | b200-sharir | 2 | 101/256 | 155 | 16/16 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 466/1024 | 558 | 63/64 | 1 | 0 | 0 |  |
+| athena | b200-shared | 2 | 113/256 | 143 | 16/16 | 0 | 0 | 0 |  |
+| athena | b200-sharir | 2 | 113/256 | 143 | 16/16 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 4/128 | 124 | 1/8 | 7 | 0 | 0 |  |
 | athena | h200-dds | 1 | 76/128 | 52 | 6/8 | 2 | 0 | 0 |  |
 | athena | h200-shared | 1 | 76/128 | 52 | 6/8 | 2 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 109/128 | 19 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 118/128 | 10 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 227/256 | 29 | 16/16 | 0 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 93/128 | 35 | 7/8 | 1 | 0 | 0 |  |
+| athena | l40s-public | 1 | 102/128 | 26 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 195/256 | 61 | 15/16 | 1 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 167/256 | 89 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 167/256 | 89 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 4322/4960 | 638 | 246/248 | 2 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 112/128 | 16 |  |  | 2 | 3 | Dependency x1, Priority x2 |
-| tzag_elita | power-gpu | 31 | 4322/4960 | 638 | 246/248 | 2 | 0 | 11 | Priority x11 |
-| tzag_elita | sandbox | 1 | 24/160 | 136 | 2/8 | 6 | 2 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 4298/4960 | 662 | 246/248 | 2 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 100/128 | 28 |  |  | 3 | 4 | Dependency x1, Priority x2, Resources x1 |
+| tzag_elita | power-gpu | 31 | 4298/4960 | 662 | 246/248 | 2 | 0 | 13 | Priority x13 |
+| tzag_elita | sandbox | 1 | 36/160 | 124 | 3/8 | 5 | 2 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 319999 | vscode | cpu | spot_720 | RUNNING | 6h32 | cpu-node-02 | 17:27:54 | 4c 32G |
-| tzag_elita | 329977 | cur_frames_v3_cv5_cond_known_f0 | cpu | spot_720 | RUNNING | 6m | cpu-node-02 | 7:53:03 | 12c 100G |
-| tzag_elita | 329861 | dcoe_frames_v3_cv5_cond_known_f4 | sandbox | billed_sandbox_spot_720 | RUNNING | 59m | sandbox | 3:00:30 | 10c 220000M |
-| tzag_elita | 329866 | dcoe_frames_v3_cv5_ctx_rhythmvent_f2 | sandbox | billed_sandbox_spot_720 | RUNNING | 48m | sandbox | 3:11:30 | 10c 220000M |
-| tzag_elita | 323012 | cur_mcvp1hz_cond_any_f1 | cpu | spot_720 | PENDING | 36h31 | Priority | 8:00:00 | 16c 100G |
-| tzag_elita | 324322 | cur_mcvp1hz_cond_any_units3_f4 | cpu | spot_720 | PENDING | 31h06 | Priority | 8:00:00 | 16c 100G |
-| tzag_elita | 330007 | cur_frames_v3_cv5_cond_known_f1 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 11c 100G |
-| tzag_elita | 329215 | dcoe_frames_v3_cv5_ctx_rhythmvent_f4 | power-gpu | spot_720 | PENDING | 5h26 | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329217 | dcoe_frames_v3_cv5_ctx_all_f1 | power-gpu | spot_720 | PENDING | 5h26 | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329216 | dcoe_frames_v3_cv5_ctx_unithours_f4 | power-gpu | spot_720 | PENDING | 5h26 | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329233 | dcoe_frames_v3_cv5_ctx_all_f4 | power-gpu | spot_720 | PENDING | 5h11 | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329746 | dcoe_frames_v3_cv5_ctx_rhythmvent_f3 | power-gpu | spot_720 | PENDING | 1h26 | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329863 | dcoe_frames_v3_cv5_echo_f0 | power-gpu | spot_720 | PENDING | 1h01 | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329941 | dcoe_frames_v3_cv5_mcvp1hz_cond_any_f0 | power-gpu | spot_720 | PENDING | 32m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329948 | dcoe_frames_v3_cv5_ctx_rhythmvent_f1 | power-gpu | spot_720 | PENDING | 30m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329968 | dcoe_frames_v3_cv5_mcvp1hz_cond_any_f2 | power-gpu | spot_720 | PENDING | 16m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 329979 | dcoe_frames_v3_cv5_echo_f2 | power-gpu | spot_720 | PENDING | 13m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 330005 | dcoe_frames_v3_cv5_mcvp1hz_cond_any_f4 | power-gpu | spot_720 | PENDING | 2m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 319999 | vscode | cpu | spot_720 | RUNNING | 6h45 | cpu-node-02 | 17:14:55 | 4c 32G |
+| tzag_elita | 329977 | cur_frames_v3_cv5_cond_known_f0 | cpu | spot_720 | RUNNING | 19m | cpu-node-02 | 7:40:04 | 12c 100G |
+| tzag_elita | 330040 | cur_frames_v3_cv5_cond_known_f3 | cpu | spot_720 | RUNNING | 0m | cpu-node-01 | 7:59:50 | 12c 100G |
+| tzag_elita | 329861 | dcoe_frames_v3_cv5_cond_known_f4 | sandbox | billed_sandbox_spot_720 | RUNNING | 1h12 | sandbox | 2:47:31 | 10c 220000M |
+| tzag_elita | 329866 | dcoe_frames_v3_cv5_ctx_rhythmvent_f2 | sandbox | billed_sandbox_spot_720 | RUNNING | 1h01 | sandbox | 2:58:31 | 10c 220000M |
+| tzag_elita | 323012 | cur_mcvp1hz_cond_any_f1 | cpu | spot_720 | PENDING | 36h44 | Priority | 8:00:00 | 16c 100G |
+| tzag_elita | 324322 | cur_mcvp1hz_cond_any_units3_f4 | cpu | spot_720 | PENDING | 31h19 | Priority | 8:00:00 | 16c 100G |
+| tzag_elita | 330007 | cur_frames_v3_cv5_cond_known_f1 | cpu | spot_720 | PENDING | 13m | Dependency | 8:00:00 | 11c 100G |
+| tzag_elita | 330041 | cur_frames_v3_cv5_echo_f1 | cpu | spot_720 | PENDING | 0m | Resources | 8:00:00 | 11c 100G |
+| tzag_elita | 329215 | dcoe_frames_v3_cv5_ctx_rhythmvent_f4 | power-gpu | spot_720 | PENDING | 5h39 | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329216 | dcoe_frames_v3_cv5_ctx_unithours_f4 | power-gpu | spot_720 | PENDING | 5h39 | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329217 | dcoe_frames_v3_cv5_ctx_all_f1 | power-gpu | spot_720 | PENDING | 5h39 | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329233 | dcoe_frames_v3_cv5_ctx_all_f4 | power-gpu | spot_720 | PENDING | 5h24 | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329746 | dcoe_frames_v3_cv5_ctx_rhythmvent_f3 | power-gpu | spot_720 | PENDING | 1h39 | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329863 | dcoe_frames_v3_cv5_echo_f0 | power-gpu | spot_720 | PENDING | 1h14 | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329941 | dcoe_frames_v3_cv5_mcvp1hz_cond_any_f0 | power-gpu | spot_720 | PENDING | 45m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329948 | dcoe_frames_v3_cv5_ctx_rhythmvent_f1 | power-gpu | spot_720 | PENDING | 43m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329968 | dcoe_frames_v3_cv5_mcvp1hz_cond_any_f2 | power-gpu | spot_720 | PENDING | 29m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 329979 | dcoe_frames_v3_cv5_echo_f2 | power-gpu | spot_720 | PENDING | 26m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 330005 | dcoe_frames_v3_cv5_mcvp1hz_cond_any_f4 | power-gpu | spot_720 | PENDING | 15m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 330037 | dcoe_frames_v3_cv5_mcvp1hz_cond_any_units3_f3 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 330039 | dcoe_frames_v3_cv5_cond_known_f2 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
 
 ## Transfers
 
