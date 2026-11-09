@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09 06:06:43",
+ "generated": "2026-11-09 06:22:43",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -243,7 +243,7 @@
    "10",
    "median",
    "cpu",
-   "45h00",
+   "45h16",
    "(11-10 08:58)",
    "Resources",
    "",
@@ -628,7 +628,7 @@
    "10",
    "median",
    "cpu",
-   "39h35",
+   "39h51",
    "(11-10 17:00)",
    "Priority",
    "",
@@ -1315,7 +1315,7 @@
    "3.40",
    "4.67",
    "7.93",
-   "athena: copying"
+   "athena: copied"
   ],
   [
    "frames_v3_cv5_cond_known",
@@ -2140,7 +2140,7 @@
    "3.26",
    "4.57",
    "8.07",
-   "athena: copying"
+   "athena: copied"
   ],
   [
    "frames_v3_cv5_ctx_unithours",
@@ -2195,7 +2195,7 @@
    "3.48",
    "5.11",
    "8.86",
-   "athena: queued"
+   "athena: copying"
   ],
   [
    "frames_v3_cv5_ctx_unithours",
@@ -2250,7 +2250,7 @@
    "3.50",
    "4.87",
    "8.86",
-   "athena: queued"
+   "athena: copying"
   ],
   [
    "frames_v3_cv5_ctx_unithours",
@@ -2289,7 +2289,7 @@
    "cpu",
    "11-09 05:50",
    "(11-09 06:58)",
-   "15m",
+   "31m",
    "(11-09 06:58)",
    "",
    "power-gpu",
@@ -4156,8 +4156,8 @@
     "athena",
     "rtx6k-shared",
     "2",
-    "136/256",
-    "120",
+    "124/256",
+    "132",
     "16/16",
     "0",
     "0",
@@ -4168,8 +4168,8 @@
     "athena",
     "rtx6k-shocher",
     "2",
-    "136/256",
-    "120",
+    "124/256",
+    "132",
     "16/16",
     "0",
     "0",
@@ -4180,10 +4180,10 @@
     "tzag_elita",
     "compute-gpu",
     "31",
-    "4046/4960",
-    "914",
-    "244/248",
-    "4",
+    "3750/4960",
+    "1210",
+    "223/248",
+    "25",
     "0",
     "0",
     ""
@@ -4204,10 +4204,10 @@
     "tzag_elita",
     "power-gpu",
     "31",
-    "4046/4960",
-    "914",
-    "244/248",
-    "4",
+    "3750/4960",
+    "1210",
+    "223/248",
+    "25",
     "1",
     "0",
     ""
@@ -4247,9 +4247,9 @@
     "debug",
     "debug",
     "RUNNING",
-    "1h37",
+    "1h53",
     "n305",
-    "22:53",
+    "6:53",
     "12c 96G"
    ],
    [
@@ -4259,7 +4259,7 @@
     "a100-public",
     "4h_0g",
     "PENDING",
-    "6m",
+    "22m",
     "BeginTime",
     "40:00",
     "1c 1G"
@@ -4271,7 +4271,7 @@
     "debug",
     "debug",
     "PENDING",
-    "1h37",
+    "1h53",
     "Dependency",
     "2:00:00",
     "12c 96G"
@@ -4283,9 +4283,9 @@
     "cpu",
     "spot_720",
     "RUNNING",
-    "7h03",
+    "7h19",
     "cpu-node-02",
-    "16:56:49",
+    "16:40:49",
     "4c 32G"
    ],
    [
@@ -4295,9 +4295,9 @@
     "power-gpu",
     "spot_720",
     "RUNNING",
-    "15m",
+    "31m",
     "gpu-node-10",
-    "7:44:16",
+    "7:28:16",
     "12c 220000M"
    ],
    [
@@ -4307,7 +4307,7 @@
     "cpu",
     "spot_720",
     "PENDING",
-    "45h00",
+    "45h16",
     "Resources",
     "8:00:00",
     "16c 100G"
@@ -4319,7 +4319,7 @@
     "cpu",
     "spot_720",
     "PENDING",
-    "39h35",
+    "39h51",
     "Priority",
     "8:00:00",
     "16c 100G"
@@ -4339,6 +4339,28 @@
    "Error"
   ],
   "rows": [
+   [
+    "frames_v3_cv5_ctx_unithours",
+    "f3",
+    "tzag_elita",
+    "athena",
+    "copying",
+    "11-09 06:20",
+    "1m",
+    "1",
+    ""
+   ],
+   [
+    "frames_v3_cv5_ctx_unithours",
+    "f1",
+    "tzag_elita",
+    "athena",
+    "done",
+    "11-09 06:20",
+    "1m",
+    "1",
+    ""
+   ],
    [
     "frames_v3_cv5_ctx_unithours",
     "f2",
@@ -4392,28 +4414,6 @@
     "11-09 05:35",
     "2m",
     "1",
-    ""
-   ],
-   [
-    "frames_v3_cv5_ctx_unithours",
-    "f1",
-    "tzag_elita",
-    "athena",
-    "pending",
-    "",
-    "",
-    "0",
-    ""
-   ],
-   [
-    "frames_v3_cv5_ctx_unithours",
-    "f3",
-    "tzag_elita",
-    "athena",
-    "pending",
-    "",
-    "",
-    "0",
     ""
    ],
    [
