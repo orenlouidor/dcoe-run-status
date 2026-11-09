@@ -15,4 +15,3 @@ frames_v3_cv5_unitflag
 frames_v3_cv5_units3
 frames_v3_cv5_mcvp1hz
 frames_v3_cv5
-# queue test from the IUCC login node 10:57:06
