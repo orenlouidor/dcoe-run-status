@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09 05:38:32",
+ "generated": "2026-11-09 05:52:22",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -243,7 +243,7 @@
    "10",
    "median",
    "cpu",
-   "44h32",
+   "44h46",
    "(11-10 08:58)",
    "Resources",
    "",
@@ -628,7 +628,7 @@
    "10",
    "median",
    "cpu",
-   "39h07",
+   "39h21",
    "(11-10 17:00)",
    "Priority",
    "",
@@ -1260,7 +1260,7 @@
    "3.60",
    "4.96",
    "8.11",
-   "athena: queued"
+   "athena: copying"
   ],
   [
    "frames_v3_cv5_cond_known",
@@ -1299,7 +1299,7 @@
    "cpu",
    "11-09 03:04",
    "(11-09 06:08)",
-   "2h34",
+   "2h48",
    "(11-09 06:08)",
    "5",
    "sandbox",
@@ -1700,7 +1700,7 @@
    "3.56",
    "4.73",
    "8.10",
-   "athena: copying (16 min)"
+   "athena: copied"
   ],
   [
    "frames_v3_cv5_echo",
@@ -1755,7 +1755,7 @@
    "3.57",
    "4.95",
    "8.30",
-   "athena: copying"
+   "athena: copied"
   ],
   [
    "frames_v3_cv5_ctx_rhythmvent",
@@ -2085,7 +2085,7 @@
    "3.24",
    "4.71",
    "8.15",
-   "athena: queued"
+   "athena: copying"
   ],
   [
    "frames_v3_cv5_ctx_unithours",
@@ -2256,13 +2256,13 @@
    "frames_v3_cv5_ctx_unithours",
    "f4",
    "tzag_elita",
-   "In Training",
+   "Before Training",
    "11-06 18:16",
    "11-08 12:45",
    "",
-   "run_20261109_041414_frames_v3_cv5_ctx_unithours_f4",
+   "",
    "941 / 314 / 313",
-   "11-08 16:11 trn 328751 ended CANCELLED (exit 0:0); rerun 1; 11-09 02:33 training 329216 gave up on the curator lock of pap_ecg-cvp_PAPcv5_f4_train_bbc049a1cfc0 held by job 319713; 11-09 02:33 trn 329216 gave up on the curator lock of pap_ecg-cvp_PAPcv5_f4_train_bbc049a1cfc0 held by job 319713; rerun 2",
+   "11-09 02:33 trn 329216 gave up on the curator lock of pap_ecg-cvp_PAPcv5_f4_train_bbc049a1cfc0 held by job 319713; rerun 2; 11-09 05:48 training 330966 gave up on the curator lock of pap_ecg-cvp_PAPcv5_f4_train_bbc049a1cfc0 held by job 319713; 11-09 05:48 trn 330966 gave up on the curator lock of pap_ecg-cvp_PAPcv5_f4_train_bbc049a1cfc0 held by job 319713; rerun 3",
    "rocket",
    "cvp,ecg",
    "v3",
@@ -2287,10 +2287,10 @@
    "Done",
    "",
    "cpu",
-   "11-09 04:13",
-   "(11-09 05:18)",
-   "1h24",
-   "(11-09 05:18)",
+   "",
+   "",
+   "",
+   "",
    "",
    "power-gpu",
    "",
@@ -3998,7 +3998,7 @@
   null,
   null,
   null,
-  0.0,
+  1.0,
   null,
   null,
   null,
@@ -4048,10 +4048,10 @@
     "athena",
     "a100-public",
     "8",
-    "535/1024",
-    "489",
-    "58/64",
-    "6",
+    "511/1024",
+    "513",
+    "56/64",
+    "8",
     "0",
     "1",
     "BeginTime x1"
@@ -4180,10 +4180,10 @@
     "tzag_elita",
     "compute-gpu",
     "31",
-    "3878/4960",
-    "1082",
-    "235/248",
-    "13",
+    "3970/4960",
+    "990",
+    "240/248",
+    "7",
     "0",
     "0",
     ""
@@ -4204,10 +4204,10 @@
     "tzag_elita",
     "power-gpu",
     "31",
-    "3878/4960",
-    "1082",
-    "235/248",
-    "13",
+    "3970/4960",
+    "990",
+    "240/248",
+    "7",
     "1",
     "0",
     ""
@@ -4216,10 +4216,10 @@
     "tzag_elita",
     "sandbox",
     "1",
-    "20/160",
-    "140",
-    "2/8",
-    "6",
+    "10/160",
+    "150",
+    "1/8",
+    "7",
     "1",
     "0",
     ""
@@ -4247,9 +4247,9 @@
     "debug",
     "debug",
     "RUNNING",
-    "1h08",
+    "1h22",
     "n305",
-    "51:04",
+    "37:14",
     "12c 96G"
    ],
    [
@@ -4259,7 +4259,7 @@
     "a100-public",
     "4h_0g",
     "PENDING",
-    "8m",
+    "22m",
     "BeginTime",
     "40:00",
     "1c 1G"
@@ -4271,7 +4271,7 @@
     "debug",
     "debug",
     "PENDING",
-    "1h08",
+    "1h22",
     "Dependency",
     "2:00:00",
     "12c 96G"
@@ -4283,21 +4283,21 @@
     "cpu",
     "spot_720",
     "RUNNING",
-    "6h35",
+    "6h48",
     "cpu-node-02",
-    "17:25:00",
+    "17:11:10",
     "4c 32G"
    ],
    [
     "tzag_elita",
-    "330966",
+    "331374",
     "dcoe_frames_v3_cv5_ctx_unithours_f4",
     "power-gpu",
     "spot_720",
     "RUNNING",
-    "1h24",
-    "gpu-node-15",
-    "6:35:24",
+    "1m",
+    "gpu-node-10",
+    "7:58:37",
     "12c 220000M"
    ],
    [
@@ -4307,9 +4307,9 @@
     "sandbox",
     "billed_sandbox_spot_720",
     "RUNNING",
-    "2h34",
+    "2h48",
     "sandbox",
-    "1:25:33",
+    "1:11:43",
     "10c 220000M"
    ],
    [
@@ -4319,7 +4319,7 @@
     "cpu",
     "spot_720",
     "PENDING",
-    "44h32",
+    "44h46",
     "Resources",
     "8:00:00",
     "16c 100G"
@@ -4331,7 +4331,7 @@
     "cpu",
     "spot_720",
     "PENDING",
-    "39h07",
+    "39h21",
     "Priority",
     "8:00:00",
     "16c 100G"
@@ -4352,13 +4352,13 @@
   ],
   "rows": [
    [
-    "frames_v3_cv5_echo",
-    "f4",
+    "frames_v3_cv5_ctx_unithours",
+    "f0",
     "tzag_elita",
     "athena",
     "done",
-    "11-09 05:35",
-    "2m",
+    "11-09 05:50",
+    "1m",
     "1",
     ""
    ],
@@ -4367,10 +4367,21 @@
     "f0",
     "tzag_elita",
     "athena",
-    "pending",
-    "",
-    "",
-    "0",
+    "done",
+    "11-09 05:49",
+    "2m",
+    "1",
+    ""
+   ],
+   [
+    "frames_v3_cv5_echo",
+    "f4",
+    "tzag_elita",
+    "athena",
+    "done",
+    "11-09 05:35",
+    "2m",
+    "1",
     ""
    ],
    [
@@ -4411,9 +4422,9 @@
     "f3",
     "tzag_elita",
     "athena",
-    "copying",
+    "done",
     "11-09 05:19",
-    "19m",
+    "30m",
     "1",
     ""
    ],
@@ -4459,17 +4470,6 @@
     "11-09 05:04",
     "1m",
     "1",
-    ""
-   ],
-   [
-    "frames_v3_cv5_ctx_unithours",
-    "f0",
-    "tzag_elita",
-    "athena",
-    "pending",
-    "",
-    "",
-    "0",
     ""
    ],
    [
