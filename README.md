@@ -3,7 +3,7 @@
 The sweep queue and the status page of the DCOE project's experiment sweeps. The scheduler
 (`scripts/exec/scheduler.py` of the DCOE source repository) runs on the Athena login node, drives
 Athena and IUCC, reads the queue from this repository every 10 seconds and pushes the status back
-every 15 minutes.
+every 5 minutes.
 
 **Status page:** https://orenlouidor.github.io/dcoe-scheduler/ (`index.html`; `STATUS.md` and
 `status.json` hold the same tables).
@@ -28,6 +28,7 @@ frames_v3_cv5_ctx_all @ feat/ctx    # the same, frozen from the branch (or tag, 
 ## Refresh now
 
 A file named `refresh` (any content) pushed to this repository makes the scheduler run a cycle at once and
-rewrite the page; the publish that answers it removes the file. The page's **Refresh now** button opens
-GitHub's new-file form for it. The scheduler commits the status as `dcoe-scheduler`; queue edits and refresh
-requests carry their author.
+rewrite the page; the publish that answers it removes the file. The page's **Refresh now** button creates it
+through GitHub's API with a fine-grained token (contents: read and write on this repository) that you paste
+once per browser and the browser keeps; its `form` link does the same through GitHub's new-file form. The
+scheduler commits the status as `dcoe-scheduler`; queue edits and refresh requests carry their author.
