@@ -1,0 +1,17 @@
+# The sweep queue of scripts/exec/scheduler.py -- see README.md. One spec per line in priority order;
+# "name @ ref" freezes it from that branch / tag / sha of the DCOE repository; "- name" cancels.
+frames_v3_cv5_mcvp1hz_cond_any
+frames_v3_cv5_mcvp1hz_cond_any_units3
+frames_v3_cv5_cond_any
+frames_v3_cv5_ctx_drugs
+frames_v3_cv5_cond_known
+frames_v3_cv5_echo
+frames_v3_cv5_ctx_rhythmvent
+frames_v3_cv5_ctx_unithours
+frames_v3_cv5_ctx_all
+# done
+frames_v3_cv5_top10
+frames_v3_cv5_unitflag
+frames_v3_cv5_units3
+frames_v3_cv5_mcvp1hz
+frames_v3_cv5
