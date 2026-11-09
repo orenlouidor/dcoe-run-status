@@ -24,3 +24,10 @@ frames_v3_cv5_ctx_all @ feat/ctx    # the same, frozen from the branch (or tag, 
 - A cancellation names the sweep exactly; whatever follows an `@` on a `-` line is ignored.
 - A finished sweep stays listed so its results stay on the page. `#` starts a comment.
 - The queue is public: sweep names and refs only, never a path with a credential.
+
+## Refresh now
+
+A file named `refresh` (any content) pushed to this repository makes the scheduler run a cycle at once and
+rewrite the page; the publish that answers it removes the file. The page's **Refresh now** button opens
+GitHub's new-file form for it. The scheduler commits the status as `dcoe-scheduler`; queue edits and refresh
+requests carry their author.
