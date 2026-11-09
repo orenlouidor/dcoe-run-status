@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-09 22:56:38 (Israel time)
+# DCOE sweeps -- status at 2026-11-09 23:01:41 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 77.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -55,7 +55,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | frames_v3_cv5_ctx_unithours | f2 | 3829002 | tzag_elita | Done | 11-08 10:53 | 11-09 04:05 | 11-09 05:01 | run_20261109_040618_frames_v3_cv5_ctx_unithours_f2 | 941 / 313 / 314 |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | unit_csru,unit_ccu,unit_sicu,unit_micu,unit_tsicu,hours_since_admission |  |  |  | pap | 30 | 10 | median |  |  |  |  |  | 11-08 23:39 |  | Done |  | cpu | 11-09 04:05 | 11-09 05:01 | 55m | Done | 6 | power-gpu | 283 | 2.33 | 3.55 | 6.54 | 84 | 8.72 | 10.36 | 11.47 | 95 | 3.26 | 4.57 | 8.07 | athena: copied |
 | frames_v3_cv5_ctx_unithours | f1 | 3829002 | tzag_elita | Done | 11-08 10:53 | 11-09 04:05 | 11-09 05:20 | run_20261109_040618_frames_v3_cv5_ctx_unithours_f1 | 940 / 314 / 314 |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | unit_csru,unit_ccu,unit_sicu,unit_micu,unit_tsicu,hours_since_admission |  |  |  | pap | 30 | 10 | median |  |  |  |  |  | 11-08 23:40 |  | Done |  | cpu | 11-09 04:05 | 11-09 05:20 | 1h14 | Done | 6 | power-gpu | 273 | 2.40 | 3.38 | 5.94 | 95 | 3.15 | 2.96 | 2.81 | 94 | 3.48 | 5.11 | 8.86 | athena: copied |
 | frames_v3_cv5_ctx_unithours | f3 | 3829002 | tzag_elita | Done | 11-08 10:53 | 11-09 04:08 | 11-09 05:28 | run_20261109_040915_frames_v3_cv5_ctx_unithours_f3 | 942 / 313 / 313 |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | unit_csru,unit_ccu,unit_sicu,unit_micu,unit_tsicu,hours_since_admission |  |  |  | pap | 30 | 10 | median |  |  |  |  |  | 11-08 23:50 |  | Done |  | cpu | 11-09 04:08 | 11-09 05:28 | 1h19 | Done | 6 | power-gpu | 292 | 2.60 | 3.50 | 6.17 | 86 | 2.68 | 1.33 | 2.57 | 84 | 3.50 | 4.87 | 8.86 | athena: copied |
-| frames_v3_cv5_ctx_unithours | f4 | 3829002 | athena | In Training | 11-06 18:16 | 11-09 15:46 |  | run_20261109_215251_frames_v3_cv5_ctx_unithours_f4 | 941 / 314 / 313 | 11-09 16:54 cur 302704 no new patient for 1h07 (memory at the limit); rerun 4; 11-09 16:54 cur rerun 3 times already; marked Failed; 11-09 21:40 trn 302772 no new epoch for 2h04; rerun 1 | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | unit_csru,unit_ccu,unit_sicu,unit_micu,unit_tsicu,hours_since_admission |  |  |  | pap | 30 | 10 | median |  |  |  |  | 11-09 15:46 | 11-09 16:59 | 1h12 | Done |  | l40s-shared | 11-09 21:42 | (11-09 22:06) | 1h14 | (11-09 22:06) |  | rtx6k-shared |  | 2.95 | 3.92 | 6.33 |  | 1.43 | 2.25 | 3.70 |  |  |  |  |  |
+| frames_v3_cv5_ctx_unithours | f4 | 3829002 | athena | In Training | 11-06 18:16 | 11-09 15:46 |  | run_20261109_215251_frames_v3_cv5_ctx_unithours_f4 | 941 / 314 / 313 | 11-09 16:54 cur 302704 no new patient for 1h07 (memory at the limit); rerun 4; 11-09 16:54 cur rerun 3 times already; marked Failed; 11-09 21:40 trn 302772 no new epoch for 2h04; rerun 1 | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | unit_csru,unit_ccu,unit_sicu,unit_micu,unit_tsicu,hours_since_admission |  |  |  | pap | 30 | 10 | median |  |  |  |  | 11-09 15:46 | 11-09 16:59 | 1h12 | Done |  | l40s-shared | 11-09 21:42 | (11-09 22:06) | 1h19 | (11-09 22:06) |  | rtx6k-shared |  | 2.73 | 3.74 | 6.54 |  | 1.37 | 2.09 | 3.46 |  |  |  |  |  |
 | frames_v3_cv5_ctx_all | f0 | 3829002 | tzag_elita | Done | 11-07 12:15 | 11-08 23:50 | 11-09 05:07 | run_20261109_041017_frames_v3_cv5_ctx_all_f0 | 940 / 314 / 314 |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | pressor_on,pressor_peak,inotrope_on,dobutamine_peak,milrinone_peak,vasodilator_on,vasodilator_peak,pulm_vasodilator_on,ino_on,ino_peak,rhythm_sinus,rhythm_afib,rhythm_paced,rhythm_other,vent_controlled,vent_support,unit_csru,unit_ccu,unit_sicu,unit_micu,unit_tsicu,hours_since_admission |  |  |  | pap | 30 | 10 | median |  |  |  |  | 11-08 23:50 | 11-09 00:20 | 30m | Done |  | cpu | 11-09 04:09 | 11-09 05:07 | 57m | Done | 6 | power-gpu | 265 | 2.57 | 3.58 | 6.25 | 94 | 3.40 | 1.39 | 5.01 | 103 | 3.22 | 4.67 | 8.08 | athena: copied |
 | frames_v3_cv5_ctx_all | f2 | 3829002 | tzag_elita | Done | 11-08 10:53 | 11-09 04:09 | 11-09 05:11 | run_20261109_041014_frames_v3_cv5_ctx_all_f2 | 941 / 313 / 314 |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | pressor_on,pressor_peak,inotrope_on,dobutamine_peak,milrinone_peak,vasodilator_on,vasodilator_peak,pulm_vasodilator_on,ino_on,ino_peak,rhythm_sinus,rhythm_afib,rhythm_paced,rhythm_other,vent_controlled,vent_support,unit_csru,unit_ccu,unit_sicu,unit_micu,unit_tsicu,hours_since_admission |  |  |  | pap | 30 | 10 | median |  |  |  |  |  | 11-09 00:21 |  | Done |  | cpu | 11-09 04:09 | 11-09 05:11 | 1h01 | Done | 7 | power-gpu | 283 | 2.33 | 3.04 | 5.65 | 84 | 9.16 | 10.67 | 11.68 | 95 | 3.31 | 4.64 | 8.51 | athena: copied |
 | frames_v3_cv5_ctx_all | f1 | 3829002 | tzag_elita | Done | 11-06 18:16 | 11-08 13:37 | 11-09 02:09 | run_20261109_005802_frames_v3_cv5_ctx_all_f1 | 940 / 314 / 314 | 11-08 16:11 training 328919 ended CANCELLED (exit 0:0); 11-08 16:11 trn 328919 ended CANCELLED (exit 0:0); rerun 1 | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | pressor_on,pressor_peak,inotrope_on,dobutamine_peak,milrinone_peak,vasodilator_on,vasodilator_peak,pulm_vasodilator_on,ino_on,ino_peak,rhythm_sinus,rhythm_afib,rhythm_paced,rhythm_other,vent_controlled,vent_support,unit_csru,unit_ccu,unit_sicu,unit_micu,unit_tsicu,hours_since_admission |  |  |  | pap | 30 | 10 | median |  |  |  |  | 11-08 13:37 | 11-08 14:19 | 42m | Done |  | cpu | 11-09 00:57 | 11-09 02:09 | 1h11 | Done | 6 | power-gpu | 273 | 2.34 | 3.22 | 5.57 | 95 | 2.91 | 2.43 | 2.84 | 94 | 3.39 | 4.93 | 8.48 | athena: copied |
@@ -98,21 +98,21 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | h200-dds | 1 | 95/128 | 33 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 95/128 | 33 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 82/128 | 46 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 97/128 | 31 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 179/256 | 77 | 15/16 | 1 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 172/256 | 84 | 16/16 | 0 | 1 | 0 |  |
-| athena | rtx6k-shocher | 2 | 172/256 | 84 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3898/4960 | 1062 | 242/248 | 5 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 112/128 | 16 |  |  | 1 | 0 |  |
-| tzag_elita | power-gpu | 31 | 3898/4960 | 1062 | 242/248 | 5 | 0 | 0 |  |
+| athena | l40s-public | 1 | 101/128 | 27 | 7/8 | 1 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 183/256 | 73 | 15/16 | 1 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 164/256 | 92 | 16/16 | 0 | 1 | 0 |  |
+| athena | rtx6k-shocher | 2 | 164/256 | 92 | 16/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3854/4960 | 1106 | 238/248 | 9 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 110/128 | 18 |  |  | 1 | 0 |  |
+| tzag_elita | power-gpu | 31 | 3854/4960 | 1106 | 238/248 | 9 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 124/160 | 36 | 8/8 | 0 | 0 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | 303128 | dcoe_frames_v3_cv5_ctx_unithours_f4 | rtx6k-shared | 24h_1g | RUNNING | 1h14 | n318 | 6:45:47 | 12c 100G |
-| tzag_elita | 319999 | vscode | cpu | spot_720 | RUNNING | 4h45 | cpu-node-02 | 19:14:41 | 4c 32G |
+| athena | 303128 | dcoe_frames_v3_cv5_ctx_unithours_f4 | rtx6k-shared | 24h_1g | RUNNING | 1h19 | n318 | 6:40:44 | 12c 100G |
+| tzag_elita | 319999 | vscode | cpu | spot_720 | RUNNING | 4h50 | cpu-node-02 | 19:09:38 | 4c 32G |
 
 ## Transfers
 
