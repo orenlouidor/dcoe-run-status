@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-10 10:40:46 (Israel time)
+# DCOE sweeps -- status at 2026-11-10 10:45:35 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 77.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -91,15 +91,15 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 488/1024 | 536 | 64/64 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 472/1024 | 552 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 0/128 | 128 | 0/8 | 8 | 0 | 0 |  |
 | athena | h200-dds | 1 | 81/128 | 47 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 81/128 | 47 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 72/128 | 56 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 102/128 | 26 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 174/256 | 82 | 15/16 | 1 | 0 | 0 |  |
+| athena | l40s-public | 1 | 94/128 | 34 | 7/8 | 1 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 166/256 | 90 | 15/16 | 1 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 123/256 | 133 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 123/256 | 133 | 16/16 | 0 | 0 | 0 |  |
 | tzag_elita | compute-gpu | 31 | 3658/4960 | 1302 | 227/248 | 21 | 0 | 0 |  |
@@ -111,6 +111,53 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
+
+## Failures
+
+| Time | Cluster | Partition | Sweep | Fold | Type | Try | Job | Reason | Resubmitted to |
+|---|---|---|---|---|---|---|---|---|---|
+| 11-10 09:57 | athena | rtx6k-shared | frames_v3_cv5_ctx_unithours | f4 | Training | 8 | 303401 | no new epoch for 6h51 | given up (Failed) |
+| 11-10 03:06 | athena | rtx6k-shared | frames_v3_cv5_ctx_unithours | f4 | Training | 7 | 303298 | no new epoch for 2h03 | athena/rtx6k-shared |
+| 11-10 01:02 | athena | rtx6k-shared | frames_v3_cv5_ctx_unithours | f4 | Training | 6 | 303128 | no new epoch for 2h00 | athena/rtx6k-shared |
+| 11-09 22:26 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10 | f1 | Curation | 8 | 302894 | OOM-killed at 16G (max RSS 16605324K; 1 kills) | given up (Failed) |
+| 11-09 21:40 | athena | a100-public | frames_v3_cv5_ctx_unithours | f4 | Training | 5 | 302772 | no new epoch for 2h04 | athena/rtx6k-shared |
+| 11-09 19:30 | athena | a100-public | frames_v3_cv5_mcvp1hz_top5 | f3 | Training | 1 | 302751 | no new epoch for 2h03 | athena/a100-public |
+| 11-09 17:59 | athena | rtx6k-shared | frames_v3_cv5_mcvp1hz_top10 | f1 | Curation | 6 | 302824 | 1 worker process(es) OOM-killed in its 16G cgroup after 24m | athena/rtx6k-shared,l40s-shared |
+| 11-09 17:09 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10 | f1 | Curation | 4 | 302760 | 1 worker process(es) OOM-killed in its 16G cgroup after 24m | athena/rtx6k-shared,l40s-shared |
+| 11-09 16:18 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10 | f1 | Curation | 2 | 302712 | 1 worker process(es) OOM-killed in its 16G cgroup after 21m | athena/rtx6k-shared,l40s-shared |
+| 11-09 15:58 | athena | rtx6k-shared | frames_v3_cv5_mcvp1hz_cond_any | f1 | Curation | 3 | 302615 | no new patient for 1h01 | athena/a100-public |
+| 11-09 15:53 | athena | a100-public | frames_v3_cv5_mcvp1hz_top5 | f4 | Curation | 3 | 302675 | 1 worker process(es) OOM-killed in its 16G cgroup after 14m | athena/rtx6k-shared,l40s-shared |
+| 11-09 15:38 | athena | a100-public | frames_v3_cv5_ctx_unithours | f4 | Curation | 6 | 302666 | 1 worker process(es) OOM-killed in its 16G cgroup after 18m | athena/l40s-shared |
+| 11-09 15:38 | athena | a100-public | frames_v3_cv5_mcvp1hz_top5 | f1 | Curation | 3 | 302663 | 2 worker process(es) OOM-killed in its 16G cgroup after 18m | athena/rtx6k-shared,l40s-shared |
+| 11-09 15:38 | athena | a100-public | frames_v3_cv5_mcvp1hz_top5 | f3 | Curation | 3 | 302664 | 2 worker process(es) OOM-killed in its 16G cgroup after 18m | athena/l40s-shared |
+| 11-09 15:08 | athena | a100-public | frames_v3_cv5_mcvp1hz_top5 | f4 | Curation | 1 | 302367 | 1 worker process(es) OOM-killed in its 16G cgroup after 11m | athena/rtx6k-shared,l40s-shared |
+| 11-09 14:57 | athena | a100-public | frames_v3_cv5_mcvp1hz_cond_any | f1 | Curation | 2 | 302361 | 2 worker process(es) OOM-killed in its 16G cgroup after 1h06 | athena/rtx6k-shared |
+| 11-09 14:57 | athena | a100-public | frames_v3_cv5_mcvp1hz_cond_any_units3 | f4 | Curation | 2 | 302362 | 2 worker process(es) OOM-killed in its 16G cgroup after 1h06 | athena/l40s-shared |
+| 11-09 14:57 | athena | a100-public | frames_v3_cv5_ctx_unithours | f4 | Curation | 4 | 302368 | 6 worker process(es) OOM-killed in its 16G cgroup after 1h06 | athena/rtx6k-shared,l40s-shared |
+| 11-09 14:57 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10 | f0 | Curation | 2 | 302363 | 2 worker process(es) OOM-killed in its 16G cgroup after 1h06 | athena/l40s-shared |
+| 11-09 14:57 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10 | f2 | Curation | 2 | 302364 | 4 worker process(es) OOM-killed in its 16G cgroup after 1h06 | athena/rtx6k-shared |
+| 11-09 14:57 | athena | a100-public | frames_v3_cv5_mcvp1hz_top5 | f1 | Curation | 1 | 302365 | 4 worker process(es) OOM-killed in its 16G cgroup after 1h06 | athena/rtx6k-shared,l40s-shared |
+| 11-09 14:57 | athena | a100-public | frames_v3_cv5_mcvp1hz_top5 | f3 | Curation | 1 | 302366 | 4 worker process(es) OOM-killed in its 16G cgroup after 1h06 | athena/rtx6k-shared,l40s-shared |
+| 11-09 07:23 | tzag_elita | power-gpu | frames_v3_cv5_ctx_unithours | f4 | Training | 4 | 331374 | FAILED | athena/a100-public |
+| 11-09 05:45 | tzag_elita | power-gpu | frames_v3_cv5_ctx_unithours | f4 | Training | 3 | 330966 | gave up on the curator lock of pap_ecg-cvp_PAPcv5_f4_train_bbc049a1cfc0 held by job 319713 | tzag_elita/power-gpu |
+| 11-09 02:29 | tzag_elita | power-gpu | frames_v3_cv5_ctx_unithours | f4 | Training | 2 | 329216 | gave up on the curator lock of pap_ecg-cvp_PAPcv5_f4_train_bbc049a1cfc0 held by job 319713 | tzag_elita/power-gpu |
+| 11-08 19:09 | athena | a100-public,rtx6k-shared,l40s-shared,l40s-public | frames_v3_cv5_cond_known | f1 | Curation | 1 | 300849 | FAILED | tzag_elita/cpu |
+| 11-08 19:09 | athena | a100-public,rtx6k-shared,l40s-shared,l40s-public | frames_v3_cv5_cond_known | f3 | Curation | 1 | 300850 | FAILED | tzag_elita/cpu |
+| 11-08 19:09 | athena | a100-public,rtx6k-shared,l40s-shared,l40s-public | frames_v3_cv5_mcvp1hz_cond_any | f4 | Curation | 1 | 300844 | FAILED | tzag_elita/cpu |
+| 11-08 19:09 | athena | a100-public,rtx6k-shared,l40s-shared,l40s-public | frames_v3_cv5_cond_known | f2 | Curation | 1 | 300848 | FAILED | tzag_elita/cpu |
+| 11-08 19:09 | athena | a100-public,rtx6k-shared,l40s-shared,l40s-public | frames_v3_cv5_cond_known | f0 | Curation | 1 | 300847 | FAILED | tzag_elita/cpu |
+| 11-08 19:08 | athena | a100-public,rtx6k-shared,l40s-shared,l40s-public | frames_v3_cv5_mcvp1hz_cond_any_units3 | f3 | Curation | 2 | 300846 | FAILED | tzag_elita/cpu |
+| 11-08 19:08 | athena | a100-public,rtx6k-shared,l40s-shared,l40s-public | frames_v3_cv5_mcvp1hz_cond_any | f0 | Curation | 2 | 300839 | FAILED | tzag_elita/cpu |
+| 11-08 19:08 | athena | a100-public,rtx6k-shared,l40s-shared,l40s-public | frames_v3_cv5_mcvp1hz_cond_any | f2 | Curation | 2 | 300842 | FAILED | tzag_elita/cpu |
+| 11-08 16:09 | tzag_elita | sandbox | frames_v3_cv5_ctx_drugs | f0 | Training | 3 | 328397 | hit the time limit after 04:00:28 on sandbox | tzag_elita/power-gpu |
+| 11-08 15:56 | tzag_elita | power-gpu | frames_v3_cv5_ctx_rhythmvent | f3 | Training | 1 | 328814 | ended CANCELLED (exit 0:0) | tzag_elita/power-gpu |
+| 11-08 15:56 | tzag_elita | power-gpu | frames_v3_cv5_ctx_unithours | f4 | Training | 1 | 328751 | ended CANCELLED (exit 0:0) | tzag_elita/power-gpu |
+| 11-08 15:56 | tzag_elita | power-gpu | frames_v3_cv5_ctx_all | f1 | Training | 1 | 328919 | ended CANCELLED (exit 0:0) | tzag_elita/power-gpu |
+| 11-08 15:53 | tzag_elita | sandbox | frames_v3_cv5_cond_any | f4 | Training | 2 | 328356 | hit the time limit after 04:00:03 on sandbox | tzag_elita/power-gpu |
+| 11-08 15:41 | tzag_elita | cpu | frames_v3_cv5_ctx_all | f4 | Curation | 1 | 319715 | RERUN | tzag_elita/cpu |
+| 11-08 15:11 | tzag_elita | cpu | frames_v3_cv5_ctx_rhythmvent | f4 | Curation | 1 | 328066 | RERUN | tzag_elita/cpu |
+| 11-08 13:41 | tzag_elita | cpu | frames_v3_cv5_ctx_rhythmvent | f0 | Curation | 1 | 328062 | RERUN | tzag_elita/cpu |
+| 11-08 11:06 | tzag_elita | cpu | frames_v3_cv5_ctx_unithours | f4 | Curation | 1 | 319713 | RERUN | tzag_elita/cpu |
 
 ## Transfers
 
