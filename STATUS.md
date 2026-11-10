@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-10 10:55:41 (Israel time)
+# DCOE sweeps -- status at 2026-11-10 11:00:33 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 77.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -95,16 +95,16 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | b200-shared | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 4/128 | 124 | 1/8 | 7 | 0 | 0 |  |
-| athena | h200-dds | 1 | 81/128 | 47 | 8/8 | 0 | 0 | 0 |  |
-| athena | h200-shared | 1 | 81/128 | 47 | 8/8 | 0 | 0 | 0 |  |
+| athena | h200-dds | 1 | 73/128 | 55 | 8/8 | 0 | 0 | 0 |  |
+| athena | h200-shared | 1 | 73/128 | 55 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 69/128 | 59 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-public | 1 | 102/128 | 26 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 171/256 | 85 | 14/16 | 2 | 0 | 0 |  |
+| athena | l40s-public | 1 | 94/128 | 34 | 7/8 | 1 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 163/256 | 93 | 14/16 | 2 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 123/256 | 133 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 123/256 | 133 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3642/4960 | 1318 | 227/248 | 21 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3618/4960 | 1342 | 227/248 | 21 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 118/128 | 10 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 3642/4960 | 1318 | 227/248 | 21 | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 3618/4960 | 1342 | 227/248 | 21 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 0/160 | 160 | 0/8 | 8 | 0 | 0 |  |
 
 ## My jobs
