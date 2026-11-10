@@ -17,5 +17,5 @@ frames_v3_cv5_unitflag
 frames_v3_cv5_units3
 frames_v3_cv5_mcvp1hz
 frames_v3_cv5
-frames_v3_cv5_mcvp1hz_top10_5min
-frames_v3_cv5_mcvp1hz_top10_10min
+- frames_v3_cv5_mcvp1hz_top10_5min   # cancelled 2026-11-10 11:55: re-queued below at main (curator fix #32)
+- frames_v3_cv5_mcvp1hz_top10_10min   # cancelled 2026-11-10 11:55: re-queued below at main (curator fix #32)
