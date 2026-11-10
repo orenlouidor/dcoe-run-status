@@ -19,3 +19,5 @@ frames_v3_cv5_mcvp1hz
 frames_v3_cv5
 frames_v3_cv5_mcvp1hz_top10_5min @ main    # re-queued 2026-11-10 11:58 at main (7cf770e, curator releases written pages, #32)
 frames_v3_cv5_mcvp1hz_top10_10min @ main   # idem
+frames_v3_cv5_mcvp1hz_top10_25min   # 2026-11-10 14:20: 25 min of 1 Hz mCVP + HR (main, curator #33)
+frames_v3_cv5_mcvp1hz_top10_30min   # idem, 30 min
