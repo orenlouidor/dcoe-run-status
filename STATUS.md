@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-10 11:50:36 (Israel time)
+# DCOE sweeps -- status at 2026-11-10 11:52:42 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 77.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -86,22 +86,22 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | frames_v3_cv5 | f1 | 5a6f6be | tzag_elita | Done | 10-19 21:37 | 10-19 21:37 | 10-20 00:41 | run_20261019_213717_frames_v3_cv5_f1 | 940 / 314 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 10-19 21:37 | 10-20 00:41 | 3h04 | Done | 6 | sandbox | 273 | 2.47 | 3.52 | 6.12 | 95 | 1.90 | 1.82 | 3.88 | 94 | 3.60 | 5.42 | 9.41 |  |
 | frames_v3_cv5 | f3 | 5a6f6be | tzag_elita | Done | 10-19 22:11 | 10-19 22:11 | 10-20 01:16 | run_20261019_221103_frames_v3_cv5_f3 | 942 / 313 / 313 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 10-19 22:11 | 10-20 01:16 | 3h05 | Done | 6 | sandbox | 292 | 2.75 | 3.88 | 6.77 | 86 | 3.54 | 2.46 | 3.01 | 84 | 3.62 | 4.90 | 8.76 |  |
 | frames_v3_cv5 | f4 | 5a6f6be | tzag_elita | Done | 10-20 00:42 | 10-20 00:42 | 10-20 02:38 | run_20261020_004215_frames_v3_cv5_f4 | 941 / 314 / 313 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 10-20 00:42 | 10-20 02:38 | 1h56 | Done | 6 | sandbox | 273 | 2.68 | 3.80 | 6.56 | 103 | 2.12 | 3.70 | 7.11 | 86 | 3.50 | 4.90 | 8.18 |  |
-| frames_v3_cv5_mcvp1hz_top10_5min | f0 | c6823de | athena | In Curation | 11-10 11:12 | 11-10 11:33 |  |  | 940 / 314 / 314 | 11-10 11:27 cur 303798 1 worker process(es) OOM-killed in its 16G cgroup after 14m; rerun 1 | Curation athena/a100-public job 303798: 1 worker process(es) OOM-killed in its 16G cgroup after 14m -> athena/l40s-shared | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 300 | -270 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 11:33 | (11-10 12:01) | 17m | (11-10 12:01) | train 925/940 (98%); validation 0/314; test 0/314 | l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_5min | f2 | c6823de | athena | In Curation | 11-10 11:12 | 11-10 11:33 |  |  | 941 / 313 / 314 | 11-10 11:27 cur 303799 3 worker process(es) OOM-killed in its 16G cgroup after 14m; rerun 1 | Curation athena/a100-public job 303799: 3 worker process(es) OOM-killed in its 16G cgroup after 14m -> athena/l40s-shared | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 300 | -270 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 11:33 | (11-10 12:01) | 17m | (11-10 12:01) | train 928/941 (99%); validation 0/313; test 0/314 | l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_5min | f1 | c6823de | athena | Before Curation | 11-10 11:12 |  |  |  | 940 / 314 / 314 | 11-10 11:32 cur 303800 1 worker process(es) OOM-killed in its 16G cgroup after 4m; rerun 1 | Curation athena/a100-public job 303800: 1 worker process(es) OOM-killed in its 16G cgroup after 4m -> athena/rtx6k-shared,l40s-shared | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 300 | -270 |  | pap | 30 | 10 | median | rtx6k-shared,l40s-shared | 17m |  | Dependency |  |  |  |  |  | rtx6k-shared,l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_5min | f3 | c6823de | athena | Before Curation | 11-10 11:12 |  |  |  | 942 / 313 / 313 | 11-10 11:32 cur 303801 1 worker process(es) OOM-killed in its 16G cgroup after 4m; rerun 1 | Curation athena/a100-public job 303801: 1 worker process(es) OOM-killed in its 16G cgroup after 4m -> athena/rtx6k-shared,l40s-shared | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 300 | -270 |  | pap | 30 | 10 | median | rtx6k-shared,l40s-shared | 17m |  | Dependency |  |  |  |  |  | rtx6k-shared,l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_5min | f4 | c6823de | athena | In Curation (rerun) | 11-10 11:12 |  |  |  | 941 / 314 / 313 | 11-10 11:50 cur 303802 1 worker process(es) OOM-killed in its 16G cgroup after 16m; rerun 1 | Curation athena/a100-public job 303802: 1 worker process(es) OOM-killed in its 16G cgroup after 16m -> athena/rtx6k-shared,l40s-shared | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 300 | -270 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 11:33 | (11-10 12:19) | 17m | (11-10 12:19) | train 568/941 (60%); validation 0/314; test 0/313 | a100-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_10min | f0 | c6823de | athena | In Curation | 11-10 11:12 | 11-10 11:43 |  |  | 940 / 314 / 314 | 11-10 11:27 cur 303803 1 worker process(es) OOM-killed in its 16G cgroup after 14m; rerun 1 | Curation athena/a100-public job 303803: 1 worker process(es) OOM-killed in its 16G cgroup after 14m -> athena/l40s-shared | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 600 | -570 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 11:43 | (11-10 12:01) | 7m | (11-10 12:01) | train 586/940 (62%); validation 0/314; test 0/314 | l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_10min | f2 | c6823de | athena | In Curation | 11-10 11:12 | 11-10 11:44 |  |  | 941 / 313 / 314 | 11-10 11:27 cur 303804 2 worker process(es) OOM-killed in its 16G cgroup after 14m; rerun 1 | Curation athena/a100-public job 303804: 2 worker process(es) OOM-killed in its 16G cgroup after 14m -> athena/l40s-shared | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 600 | -570 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 11:44 | (11-10 12:07) | 5m | (11-10 12:07) | train 375/941 (40%); validation 0/313; test 0/314 | l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_10min | f1 | c6823de | athena | In Curation | 11-10 11:12 | 11-10 11:28 |  |  | 940 / 314 / 314 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 600 | -570 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 11:28 | (11-10 12:05) | 22m | (11-10 12:05) | train 924/940 (98%); validation 0/314; test 0/314 | a100-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_10min | f3 | c6823de | tzag_elita | In Curation | 11-10 11:12 | 11-10 11:24 |  |  | 942 / 313 / 313 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 600 | -570 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 11:24 | (11-10 12:07) | 25m | (11-10 12:07) | train 921/942 (98%); validation 0/313; test 0/313 | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_mcvp1hz_top10_10min | f4 | c6823de | tzag_elita | Before Curation | 11-10 11:12 |  |  |  | 941 / 314 / 313 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 600 | -570 |  | pap | 30 | 10 | median | cpu | 36m |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_5min | f0 | c6823de | athena | Cancelled | 11-10 11:12 |  |  |  | 940 / 314 / 314 | 11-10 11:27 cur 303798 1 worker process(es) OOM-killed in its 16G cgroup after 14m; rerun 1 | Curation athena/a100-public job 303798: 1 worker process(es) OOM-killed in its 16G cgroup after 14m -> athena/l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_5min | f2 | c6823de | athena | Cancelled | 11-10 11:12 |  |  |  | 941 / 313 / 314 | 11-10 11:27 cur 303799 3 worker process(es) OOM-killed in its 16G cgroup after 14m; rerun 1 | Curation athena/a100-public job 303799: 3 worker process(es) OOM-killed in its 16G cgroup after 14m -> athena/l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_5min | f1 | c6823de | athena | Cancelled | 11-10 11:12 |  |  |  | 940 / 314 / 314 | 11-10 11:32 cur 303800 1 worker process(es) OOM-killed in its 16G cgroup after 4m; rerun 1 | Curation athena/a100-public job 303800: 1 worker process(es) OOM-killed in its 16G cgroup after 4m -> athena/rtx6k-shared,l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_5min | f3 | c6823de | athena | Cancelled | 11-10 11:12 |  |  |  | 942 / 313 / 313 | 11-10 11:32 cur 303801 1 worker process(es) OOM-killed in its 16G cgroup after 4m; rerun 1 | Curation athena/a100-public job 303801: 1 worker process(es) OOM-killed in its 16G cgroup after 4m -> athena/rtx6k-shared,l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_5min | f4 | c6823de | athena | Cancelled | 11-10 11:12 |  |  |  | 941 / 314 / 313 | 11-10 11:50 cur 303802 1 worker process(es) OOM-killed in its 16G cgroup after 16m; rerun 1 | Curation athena/a100-public job 303802: 1 worker process(es) OOM-killed in its 16G cgroup after 16m -> athena/rtx6k-shared,l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_10min | f0 | c6823de | athena | Cancelled | 11-10 11:12 |  |  |  | 940 / 314 / 314 | 11-10 11:27 cur 303803 1 worker process(es) OOM-killed in its 16G cgroup after 14m; rerun 1 | Curation athena/a100-public job 303803: 1 worker process(es) OOM-killed in its 16G cgroup after 14m -> athena/l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_10min | f2 | c6823de | athena | Cancelled | 11-10 11:12 |  |  |  | 941 / 313 / 314 | 11-10 11:27 cur 303804 2 worker process(es) OOM-killed in its 16G cgroup after 14m; rerun 1 | Curation athena/a100-public job 303804: 2 worker process(es) OOM-killed in its 16G cgroup after 14m -> athena/l40s-shared |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_10min | f1 | c6823de | athena | Cancelled | 11-10 11:12 |  |  |  | 940 / 314 / 314 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_10min | f3 | c6823de | tzag_elita | Cancelled | 11-10 11:12 |  |  |  | 942 / 313 / 313 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_10min | f4 | c6823de | tzag_elita | Cancelled | 11-10 11:12 |  |  |  | 941 / 314 / 313 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Compute
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 625/1024 | 399 | 64/64 | 0 | 1 | 1 |  |
+| athena | a100-public | 8 | 625/1024 | 399 | 64/64 | 0 | 0 | 1 |  |
 | athena | b200-shared | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 4/128 | 124 | 1/8 | 7 | 0 | 0 |  |
@@ -109,34 +109,39 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | h200-shared | 1 | 73/128 | 55 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 72/128 | 56 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-public | 1 | 85/128 | 43 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 157/256 | 99 | 16/16 | 0 | 4 | 0 |  |
-| athena | rtx6k-shared | 2 | 140/256 | 116 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 140/256 | 116 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3594/4960 | 1366 | 216/248 | 32 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 112/128 | 16 |  |  | 1 | 1 | Dependency x1 |
-| tzag_elita | power-gpu | 31 | 3594/4960 | 1366 | 216/248 | 32 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 157/256 | 99 | 16/16 | 0 | 0 | 4 |  |
+| athena | rtx6k-shared | 2 | 135/256 | 121 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 135/256 | 121 | 16/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3630/4960 | 1330 | 220/248 | 28 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 112/128 | 16 |  |  | 0 | 1 |  |
+| tzag_elita | power-gpu | 31 | 3630/4960 | 1330 | 220/248 | 28 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 0/160 | 160 | 0/8 | 8 | 0 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | 303805 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f1 | a100-public | 4h_0g | RUNNING | 22m | n306 | 3:37:52 | 8c 16G |
-| athena | 303847 | cur_frames_v3_cv5_mcvp1hz_top10_5min_f0 | l40s-shared | 24h_1g | RUNNING | 17m | n322 | 7:43:00 | 11c 100G |
-| athena | 303848 | cur_frames_v3_cv5_mcvp1hz_top10_5min_f2 | l40s-shared | 24h_1g | RUNNING | 17m | n322 | 7:43:00 | 11c 100G |
-| athena | 303849 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f0 | l40s-shared | 24h_1g | RUNNING | 7m | n322 | 7:52:32 | 11c 100G |
-| athena | 303850 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f2 | l40s-shared | 24h_1g | RUNNING | 5m | n322 | 7:54:10 | 11c 100G |
-| athena | 303802 | cur_frames_v3_cv5_mcvp1hz_top10_5min_f4 | a100-public | 4h_0g | COMPLETING | 37m | n306 | 3:42:54 | 8c 16G |
-| athena | 303857 | cur_frames_v3_cv5_mcvp1hz_top10_5min_f1 | rtx6k-shared,l40s-shared | 24h_1g | PENDING | 17m | Dependency | 8:00:00 | 11c 100G |
-| athena | 303858 | cur_frames_v3_cv5_mcvp1hz_top10_5min_f3 | rtx6k-shared,l40s-shared | 24h_1g | PENDING | 17m | Dependency | 8:00:00 | 11c 100G |
-| athena | 303900 | cur_frames_v3_cv5_mcvp1hz_top10_5min_f4 | rtx6k-shared,l40s-shared | 24h_1g | PENDING | 0m | Dependency | 8:00:00 | 11c 100G |
-| tzag_elita | 337119 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f3 | cpu | spot_720 | RUNNING | 25m | cpu-node-02 | 7:34:18 | 8c 48G |
-| tzag_elita | 337120 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f4 | cpu | spot_720 | PENDING | 36m | Dependency | 8:00:00 | 8c 48G |
+| athena | 303805 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f1 | a100-public | 4h_0g | COMPLETING | 39m | n306 | 3:35:47 | 8c 16G |
+| athena | 303847 | cur_frames_v3_cv5_mcvp1hz_top10_5min_f0 | l40s-shared | 24h_1g | COMPLETING | 24m | n322 | 7:40:55 | 11c 100G |
+| athena | 303848 | cur_frames_v3_cv5_mcvp1hz_top10_5min_f2 | l40s-shared | 24h_1g | COMPLETING | 24m | n322 | 7:40:55 | 11c 100G |
+| athena | 303849 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f0 | l40s-shared | 24h_1g | COMPLETING | 24m | n322 | 7:50:27 | 11c 100G |
+| athena | 303850 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f2 | l40s-shared | 24h_1g | COMPLETING | 24m | n322 | 7:52:05 | 11c 100G |
+| tzag_elita | 337119 | cur_frames_v3_cv5_mcvp1hz_top10_10min_f3 | cpu | spot_720 | COMPLETING | 39m | cpu-node-02 | 7:32:13 | 8c 48G |
 
 ## Failures
 
 | Time | Cluster | Partition | Sweep | Fold | Type | Try | Job | Reason | Resubmitted to |
 |---|---|---|---|---|---|---|---|---|---|
+| 11-10 11:52 | athena | l40s-shared | frames_v3_cv5_mcvp1hz_top10_5min | f0 | Curation | 2 | 303847 | CANCELLED | waits for a slot |
+| 11-10 11:52 | athena | rtx6k-shared,l40s-shared | frames_v3_cv5_mcvp1hz_top10_5min | f1 | Curation | 2 | 303857 | CANCELLED | waits for a slot |
+| 11-10 11:52 | athena | l40s-shared | frames_v3_cv5_mcvp1hz_top10_5min | f2 | Curation | 2 | 303848 | CANCELLED | waits for a slot |
+| 11-10 11:52 | athena | rtx6k-shared,l40s-shared | frames_v3_cv5_mcvp1hz_top10_5min | f3 | Curation | 2 | 303858 | CANCELLED | waits for a slot |
+| 11-10 11:52 | athena | rtx6k-shared,l40s-shared | frames_v3_cv5_mcvp1hz_top10_5min | f4 | Curation | 2 | 303900 | CANCELLED | waits for a slot |
+| 11-10 11:52 | athena | l40s-shared | frames_v3_cv5_mcvp1hz_top10_10min | f0 | Curation | 2 | 303849 | CANCELLED | waits for a slot |
+| 11-10 11:52 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10_10min | f1 | Curation | 1 | 303805 | CANCELLED | waits for a slot |
+| 11-10 11:52 | athena | l40s-shared | frames_v3_cv5_mcvp1hz_top10_10min | f2 | Curation | 2 | 303850 | CANCELLED | waits for a slot |
+| 11-10 11:52 | tzag_elita | cpu | frames_v3_cv5_mcvp1hz_top10_10min | f3 | Curation | 1 | 337119 | CANCELLED | waits for a slot |
+| 11-10 11:52 | tzag_elita | cpu | frames_v3_cv5_mcvp1hz_top10_10min | f4 | Curation | 1 | 337120 | CANCELLED | waits for a slot |
 | 11-10 11:50 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10_5min | f4 | Curation | 1 | 303802 | 1 worker process(es) OOM-killed in its 16G cgroup after 16m | athena/rtx6k-shared,l40s-shared |
 | 11-10 11:32 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10_5min | f1 | Curation | 1 | 303800 | 1 worker process(es) OOM-killed in its 16G cgroup after 4m | athena/rtx6k-shared,l40s-shared |
 | 11-10 11:32 | athena | a100-public | frames_v3_cv5_mcvp1hz_top10_5min | f3 | Curation | 1 | 303801 | 1 worker process(es) OOM-killed in its 16G cgroup after 4m | athena/rtx6k-shared,l40s-shared |
