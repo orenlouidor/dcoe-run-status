@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-10 17:02:44 (Israel time)
+# DCOE sweeps -- status at 2026-11-10 17:07:34 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 77.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -105,26 +105,26 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | frames_v3_cv5_mcvp1hz_top10_30min | f2 | 4308d27 | athena | Done | 11-10 14:20 | 11-10 14:21 | 11-10 15:54 | run_20261110_150641_frames_v3_cv5_mcvp1hz_top10_30min_f2 | 941 / 313 / 314 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 14:21 | 11-10 14:59 | 37m | Done |  | a100-public | 11-10 15:04 | 11-10 15:54 | 49m | Done | 6 | l40s-shared | 256 | 2.36 | 3.23 | 5.92 | 75 | 5.07 | 5.79 | 7.26 | 89 | 3.16 | 4.45 | 7.76 | tzag_elita: copied |
 | frames_v3_cv5_mcvp1hz_top10_30min | f1 | 4308d27 | athena | Done | 11-10 14:20 | 11-10 14:59 | 11-10 16:30 | run_20261110_154113_frames_v3_cv5_mcvp1hz_top10_30min_f1 | 940 / 314 / 314 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 14:59 | 11-10 15:31 | 31m | Done |  | a100-public | 11-10 15:36 | 11-10 16:30 | 54m | Done | 6 | l40s-shared | 247 | 2.48 | 3.34 | 5.93 | 89 | 2.87 | 8.82 | 19.52 | 84 | 2.90 | 4.09 | 7.32 | tzag_elita: copied |
 | frames_v3_cv5_mcvp1hz_top10_30min | f3 | 4308d27 | athena | Done | 11-10 14:20 | 11-10 14:59 | 11-10 16:19 | run_20261110_154135_frames_v3_cv5_mcvp1hz_top10_30min_f3 | 942 / 313 / 313 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 14:59 | 11-10 15:32 | 32m | Done |  | a100-public | 11-10 15:36 | 11-10 16:19 | 42m | Done | 6 | a100-public | 266 | 2.04 | 2.84 | 5.64 | 79 | 3.78 | 4.03 | 5.70 | 75 | 3.05 | 4.10 | 7.18 | tzag_elita: copied |
-| frames_v3_cv5_mcvp1hz_top10_30min | f4 | 4308d27 | athena | Done | 11-10 14:20 | 11-10 15:32 | 11-10 16:58 | run_20261110_162404_frames_v3_cv5_mcvp1hz_top10_30min_f4 | 941 / 314 / 313 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 15:32 | 11-10 16:03 | 31m | Done |  | a100-public | 11-10 16:19 | 11-10 16:58 | 38m | Done | 6 | a100-public | 248 | 2.32 | 3.15 | 5.93 | 93 | 2.19 | 2.96 | 4.65 | 79 | 2.98 | 4.38 | 7.44 | tzag_elita: copying |
+| frames_v3_cv5_mcvp1hz_top10_30min | f4 | 4308d27 | athena | Done | 11-10 14:20 | 11-10 15:32 | 11-10 16:58 | run_20261110_162404_frames_v3_cv5_mcvp1hz_top10_30min_f4 | 941 / 314 / 313 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-10 15:32 | 11-10 16:03 | 31m | Done |  | a100-public | 11-10 16:19 | 11-10 16:58 | 38m | Done | 6 | a100-public | 248 | 2.32 | 3.15 | 5.93 | 93 | 2.19 | 2.96 | 4.65 | 79 | 2.98 | 4.38 | 7.44 | tzag_elita: copied |
 
 ## Compute
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 530/1024 | 494 | 62/64 | 2 | 0 | 0 |  |
-| athena | b200-shared | 2 | 201/256 | 55 | 16/16 | 0 | 0 | 0 |  |
-| athena | b200-sharir | 2 | 201/256 | 55 | 16/16 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 536/1024 | 488 | 64/64 | 0 | 0 | 0 |  |
+| athena | b200-shared | 2 | 193/256 | 63 | 15/16 | 1 | 0 | 0 |  |
+| athena | b200-sharir | 2 | 193/256 | 63 | 15/16 | 1 | 0 | 0 |  |
 | athena | debug | 1 | 0/128 | 128 | 0/8 | 8 | 0 | 0 |  |
 | athena | h200-dds | 1 | 58/128 | 70 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 58/128 | 70 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 77/128 | 51 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 69/128 | 59 | 7/8 | 1 | 0 | 0 |  |
 | athena | l40s-public | 1 | 92/128 | 36 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 169/256 | 87 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 112/256 | 144 | 15/16 | 1 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 112/256 | 144 | 15/16 | 1 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3816/4960 | 1144 | 233/248 | 15 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 100/128 | 28 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 3816/4960 | 1144 | 233/248 | 15 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 161/256 | 95 | 15/16 | 1 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 127/256 | 129 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 127/256 | 129 | 16/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3840/4960 | 1120 | 233/248 | 15 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 92/128 | 36 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 3840/4960 | 1120 | 233/248 | 15 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 52/160 | 108 | 3/8 | 5 | 0 | 0 |  |
 
 ## My jobs
@@ -191,7 +191,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Sweep | Fold | From | To | Status | Started | Took | Attempts | Error |
 |---|---|---|---|---|---|---|---|---|
-| frames_v3_cv5_mcvp1hz_top10_30min | f4 | athena | tzag_elita | copying | 11-10 17:02 | 0m | 1 |  |
+| frames_v3_cv5_mcvp1hz_top10_30min | f4 | athena | tzag_elita | done | 11-10 17:02 | 4m | 1 |  |
 | frames_v3_cv5_mcvp1hz_top10_25min | f3 | athena | tzag_elita | done | 11-10 16:52 | 5m | 1 |  |
 | frames_v3_cv5_mcvp1hz_top10_30min | f1 | athena | tzag_elita | done | 11-10 16:32 | 5m | 1 |  |
 | frames_v3_cv5_mcvp1hz_top10_30min | f3 | athena | tzag_elita | done | 11-10 16:22 | 4m | 1 |  |
