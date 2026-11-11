@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-11 14:07:55 (Israel time)
+# DCOE sweeps -- status at 2026-11-11 14:13:21 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 78.1 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -122,21 +122,21 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | debug | 1 | 0/128 | 128 | 0/8 | 0 | 0 | 0 |  |
 | athena | h200-dds | 1 | 60/128 | 68 | 7/8 | 1 | 0 | 0 |  |
 | athena | h200-shared | 1 | 60/128 | 68 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 100/128 | 28 | 7/8 | 1 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 92/128 | 36 | 6/8 | 0 | 0 | 0 |  |
 | athena | l40s-public | 1 | 112/128 | 16 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 212/256 | 44 | 14/16 | 2 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 204/256 | 52 | 13/16 | 1 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 132/256 | 124 | 14/16 | 2 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 132/256 | 124 | 14/16 | 2 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3968/4960 | 992 | 223/248 | 24 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3964/4960 | 996 | 222/248 | 25 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 64/128 | 64 |  |  | 1 | 0 |  |
-| tzag_elita | power-gpu | 31 | 3968/4960 | 992 | 223/248 | 24 | 0 | 0 |  |
-| tzag_elita | sandbox | 1 | 34/160 | 126 | 1/8 | 7 | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 3964/4960 | 996 | 222/248 | 25 | 0 | 0 |  |
+| tzag_elita | sandbox | 1 | 38/160 | 122 | 2/8 | 6 | 0 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 338682 | vscode | cpu | spot_720 | RUNNING | 19m | cpu-node-02 | 23:40:07 | 4c 32G |
+| tzag_elita | 338682 | vscode | cpu | spot_720 | RUNNING | 25m | cpu-node-02 | 23:34:42 | 4c 32G |
 
 ## Failures
 
