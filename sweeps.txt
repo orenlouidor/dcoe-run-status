@@ -25,6 +25,17 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_wd0p4 @ feat/rnn-council   # 2026-
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_wd4 @ feat/rnn-council     # 2026-11-12 michael-v: L1 + head wd 4 (~wd30 under MSE); pick on validation
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_ks1 @ feat/rnn-council     # 2026-11-12 michael-v: ppvwave_mae, kernel_seed 1 (equal-weight ensemble)
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_ks2 @ feat/rnn-council     # 2026-11-12 michael-v: ppvwave_mae, kernel_seed 2
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_ridgecv @ exp/mpap-focus        # 2026-11-12 (Snir, mPAP focus): closed-form ridge head, one penalty per component chosen on validation per-patient MAE
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd1p5 @ exp/mpap-focus          # 2026-11-12 (Snir, mPAP focus): wd3 -> wd 1.5 (at wd3 mPAP is a little and sPAP clearly over-shrunk)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd2_nocw @ exp/mpap-focus       # 2026-11-12 (Snir, mPAP focus): no inverse-variance loss weights + wd 2: one ridge penalty (3) for all three components
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_ks1 @ exp/mpap-focus        # 2026-11-12 (Snir, mPAP focus): wd3 with kernel_seed 1: seed noise under weight decay + 3-seed average
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_ks2 @ exp/mpap-focus        # 2026-11-12 (Snir, mPAP focus): wd3 with kernel_seed 2
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_lvl @ exp/mpap-focus        # 2026-11-12 (Snir, mPAP focus): wd3 + 14 level / slope columns of mCVP, HR and CVP
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_lr3e4 @ exp/mpap-focus      # 2026-11-12 (Snir, mPAP focus): wd3 at lr 3e-4, patience 8 (less optimiser noise)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd9_k1536 @ exp/mpap-focus      # 2026-11-12 (Snir, mPAP focus): 1536 kernels per signal with wd 9 (3x bank, 3x penalty)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_noecg @ exp/mpap-focus      # 2026-11-12 (Snir, mPAP focus): wd3 without the ECG waveform (the other banks keep their kernels)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_trainval @ exp/mpap-focus   # 2026-11-12 (Snir, mPAP focus): wd3 trained on four holds for a fixed 6 epochs; lists on IUCC only (new train curation)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_echo @ exp/mpap-focus       # 2026-11-12 (Snir, mPAP focus): wd3 + the latest echo's PASP / has / age / PH grade (new curation)
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
