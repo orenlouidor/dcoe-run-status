@@ -15,6 +15,7 @@ frames_v3_cv5_ctx_all
 - mover_cv5_mini   # 2026-11-12 10:20: cancelled -- two arms in one spec; the scheduler wants one config per fold (<spec>_f<i>)
 mover_cv5_mini_ecg @ mover/pipeline       # 2026-11-12 (Snir): MOVER SIS, the banks_mini_f3 recipe, ECG; data on IUCC only
 mover_cv5_mini_ecg_abp @ mover/pipeline   # idem, ECG + ABP
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave @ feat/rnn-council   # 2026-11-12 michael-v: best arm with DC-honest waveform features (valid convs, PPV only on ECG+CVP) -- the jitter fix
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
