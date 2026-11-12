@@ -19,6 +19,8 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave @ feat/rnn-council   # 2026-11-12 mich
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_gru1hz @ feat/rnn-council   # 2026-11-12 michael-v: ppvwave + causal GRU (h32) over the 30 min 1 Hz mCVP/HR
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae @ feat/rnn-council   # 2026-11-12 michael-v: ppvwave + L1 training loss
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_60min @ feat/rnn-council   # 2026-11-12 michael-v: ppvwave + 60 min of 1 Hz mCVP/HR (new curation)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3 @ feat/rnn-council    # 2026-11-12 michael-v: ppvwave + head weight decay 3 (mean in a fixed bias)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd30 @ feat/rnn-council   # 2026-11-12 michael-v: idem, weight decay 30; pick on validation
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
