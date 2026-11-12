@@ -12,7 +12,9 @@ frames_v3_cv5_echo
 frames_v3_cv5_ctx_rhythmvent
 frames_v3_cv5_ctx_unithours
 frames_v3_cv5_ctx_all
-mover_cv5_mini @ mover/pipeline   # 2026-11-12 (Snir): MOVER SIS, the banks_mini_f3 recipe, arms ecg / ecg_abp; data on IUCC only (Athena reads inputs missing)
+- mover_cv5_mini   # 2026-11-12 10:20: cancelled -- two arms in one spec; the scheduler wants one config per fold (<spec>_f<i>)
+mover_cv5_mini_ecg @ mover/pipeline       # 2026-11-12 (Snir): MOVER SIS, the banks_mini_f3 recipe, ECG; data on IUCC only
+mover_cv5_mini_ecg_abp @ mover/pipeline   # idem, ECG + ABP
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
