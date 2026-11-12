@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-12 10:20:55 (Israel time)
+# DCOE sweeps -- status at 2026-11-12 10:26:16 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 78.1 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -71,16 +71,16 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | mover_cv5_mini | f1 | mover/pipeline = 7e3144c |  | Cancelled | 11-12 08:55 |  |  |  | ? / ? / ? |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mover_cv5_mini | f3 | mover/pipeline = 7e3144c |  | Cancelled | 11-12 08:55 |  |  |  | ? / ? / ? |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mover_cv5_mini | f4 | mover/pipeline = 7e3144c |  | Cancelled | 11-12 08:55 |  |  |  | ? / ? / ? |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg | f0 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 5m | (11-12 14:00) | Priority |  | 11-12 10:13 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg | f2 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 5m | (11-12 16:00) | Priority |  | 11-12 10:13 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg | f1 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 5m | (11-13 00:00) | Priority |  | 11-12 10:14 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg | f3 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 38 / 39 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 5m | (11-13 00:42) | Priority |  | 11-12 10:14 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg | f4 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 | 11-12 10:14 |  |  | 156 / 39 / 38 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 0m |  |  | 11-12 10:14 | 11-12 10:16 | 1m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg_abp | f0 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 4m | (11-13 03:00) | Priority |  | 11-12 10:14 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg_abp | f2 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 0m |  |  |  | 11-12 10:18 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg_abp | f1 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 0m |  |  |  | 11-12 10:20 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg_abp | f3 | mover/pipeline = 70bb2c2 | tzag_elita | In Curation | 11-12 10:10 | 11-12 10:18 |  |  | 155 / 38 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  | 11-12 10:18 | (11-12 11:13) | 2m | (11-12 11:13) | train 0/155; validation 0/38; test 0/39 | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_cv5_mini_ecg_abp | f4 | mover/pipeline = 70bb2c2 | tzag_elita | In Curation | 11-12 10:10 | 11-12 10:20 |  |  | 156 / 39 / 38 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  | 11-12 10:20 |  | 0m |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg | f0 | mover/pipeline = 70bb2c2 | tzag_elita | In Training | 11-12 10:10 |  |  | run_20261112_102447_mover_cv5_mini_ecg_f0 | 155 / 39 / 39 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  |  | 11-12 10:13 |  | Done |  | cpu | 11-12 10:24 | (11-12 10:42) | 1m | (11-12 10:42) |  | power-gpu |  | 4.00 | 4.71 | 6.56 |  | 5.29 | 6.78 | 10.43 |  |  |  |  |  |
+| mover_cv5_mini_ecg | f2 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 10m | (11-12 11:24) | Priority |  | 11-12 10:13 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg | f1 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 10m | (11-12 11:41) | Priority |  | 11-12 10:14 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg | f3 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 38 / 39 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 10m | (11-12 11:45) | Priority |  | 11-12 10:14 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg | f4 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 | 11-12 10:14 |  |  | 156 / 39 / 38 |  |  | minirocket | ecg | v1 | ecg | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 5m | (11-12 12:01) | Priority | 11-12 10:14 | 11-12 10:16 | 1m | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg_abp | f0 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 10m | (11-12 11:51) | Priority |  | 11-12 10:14 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg_abp | f2 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 5m | (11-12 12:13) | Priority |  | 11-12 10:18 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg_abp | f1 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 155 / 39 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 5m | (11-12 12:19) | Priority |  | 11-12 10:20 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg_abp | f3 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 | 11-12 10:18 |  |  | 155 / 38 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 0m |  |  | 11-12 10:18 | 11-12 10:20 | 2m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_cv5_mini_ecg_abp | f4 | mover/pipeline = 70bb2c2 | tzag_elita | Before Training | 11-12 10:10 |  |  |  | 156 / 39 / 38 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median | power-gpu | 0m |  |  |  | 11-12 10:22 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_top10 | f0 | da2d40d | tzag_elita | Done | 11-07 04:17 | 11-07 04:17 | 11-07 07:42 | run_20261107_041739_frames_v3_cv5_top10_f0 | 940 / 314 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 04:17 | 11-07 07:42 | 3h25 | Done | 6 | sandbox | 265 | 2.77 | 3.83 | 6.78 | 94 | 1.50 | 3.75 | 9.14 | 103 | 3.30 | 4.48 | 7.46 |  |
 | frames_v3_cv5_top10 | f2 | da2d40d | tzag_elita | Done | 11-07 04:31 | 11-07 04:31 | 11-07 07:37 | run_20261107_043155_frames_v3_cv5_top10_f2 | 941 / 313 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 04:31 | 11-07 07:37 | 3h05 | Done | 6 | sandbox | 283 | 2.26 | 3.24 | 5.97 | 84 | 6.73 | 7.06 | 6.60 | 95 | 3.35 | 4.62 | 8.00 |  |
 | frames_v3_cv5_top10 | f1 | da2d40d | tzag_elita | Done | 11-07 07:37 | 11-07 07:37 | 11-07 10:48 | run_20261107_073750_frames_v3_cv5_top10_f1 | 940 / 314 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 07:37 | 11-07 10:48 | 3h10 | Done | 6 | sandbox | 273 | 2.37 | 3.28 | 5.72 | 95 | 3.32 | 3.36 | 3.25 | 94 | 3.39 | 4.87 | 8.31 |  |
@@ -142,24 +142,25 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-shared | 2 | 143/256 | 113 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 188/256 | 68 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 188/256 | 68 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 4308/4960 | 652 | 246/248 | 1 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 100/128 | 28 |  |  | 1 | 0 |  |
-| tzag_elita | power-gpu | 31 | 4308/4960 | 652 | 246/248 | 1 | 0 | 8 | Priority x8 |
+| tzag_elita | compute-gpu | 31 | 4250/4960 | 710 | 247/248 | 1 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 92/128 | 36 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 4250/4960 | 710 | 247/248 | 1 | 1 | 9 | Priority x9 |
 | tzag_elita | sandbox | 1 | 70/160 | 90 | 6/8 | 2 | 0 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 346849 | cur_mover_cv5_mini_ecg_abp_f4 | cpu | spot_720 | RUNNING | 0m | cpu-node-01 | 7:59:50 | 8c 48G |
-| tzag_elita | 346841 | dcoe_mover_cv5_mini_ecg_f0 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 346842 | dcoe_mover_cv5_mini_ecg_f2 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 346843 | dcoe_mover_cv5_mini_ecg_f1 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 346844 | dcoe_mover_cv5_mini_ecg_f3 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 346845 | dcoe_mover_cv5_mini_ecg_abp_f0 | power-gpu | spot_720 | PENDING | 4m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 346871 | dcoe_mover_cv5_mini_ecg_f4 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 346872 | dcoe_mover_cv5_mini_ecg_abp_f2 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 346874 | dcoe_mover_cv5_mini_ecg_abp_f1 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346841 | dcoe_mover_cv5_mini_ecg_f0 | power-gpu | spot_720 | RUNNING | 1m | gpu-node-21 | 7:58:12 | 12c 220000M |
+| tzag_elita | 346842 | dcoe_mover_cv5_mini_ecg_f2 | power-gpu | spot_720 | PENDING | 10m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346843 | dcoe_mover_cv5_mini_ecg_f1 | power-gpu | spot_720 | PENDING | 10m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346844 | dcoe_mover_cv5_mini_ecg_f3 | power-gpu | spot_720 | PENDING | 10m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346845 | dcoe_mover_cv5_mini_ecg_abp_f0 | power-gpu | spot_720 | PENDING | 10m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346871 | dcoe_mover_cv5_mini_ecg_f4 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346872 | dcoe_mover_cv5_mini_ecg_abp_f2 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346874 | dcoe_mover_cv5_mini_ecg_abp_f1 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346881 | dcoe_mover_cv5_mini_ecg_abp_f3 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 346882 | dcoe_mover_cv5_mini_ecg_abp_f4 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
 
 ## Failures
 
