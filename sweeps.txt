@@ -17,6 +17,8 @@ mover_cv5_mini_ecg @ mover/pipeline       # 2026-11-12 (Snir): MOVER SIS, the ba
 mover_cv5_mini_ecg_abp @ mover/pipeline   # idem, ECG + ABP
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave @ feat/rnn-council   # 2026-11-12 michael-v: best arm with DC-honest waveform features (valid convs, PPV only on ECG+CVP) -- the jitter fix
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_gru1hz @ feat/rnn-council   # 2026-11-12 michael-v: ppvwave + causal GRU (h32) over the 30 min 1 Hz mCVP/HR
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae @ feat/rnn-council   # 2026-11-12 michael-v: ppvwave + L1 training loss
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_60min @ feat/rnn-council   # 2026-11-12 michael-v: ppvwave + 60 min of 1 Hz mCVP/HR (new curation)
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
