@@ -12,6 +12,7 @@ frames_v3_cv5_echo
 frames_v3_cv5_ctx_rhythmvent
 frames_v3_cv5_ctx_unithours
 frames_v3_cv5_ctx_all
+mover_cv5_mini @ mover/pipeline   # 2026-11-12 (Snir): MOVER SIS, the banks_mini_f3 recipe, arms ecg / ecg_abp; data on IUCC only (Athena reads inputs missing)
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
