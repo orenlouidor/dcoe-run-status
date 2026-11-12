@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-12 14:37:08 (Israel time)
+# DCOE sweeps -- status at 2026-11-12 14:38:28 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 78.1 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -81,6 +81,11 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | mover_cv5_mini_ecg_abp | f1 | mover/pipeline = 70bb2c2 | tzag_elita | Done | 11-12 10:10 | 11-12 10:54 | 11-12 11:09 | run_20261112_105448_mover_cv5_mini_ecg_abp_f1 | 155 / 39 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  |  | 11-12 10:20 |  | Done |  | cpu | 11-12 10:54 | 11-12 11:09 | 14m | Done | 5 | power-gpu | 120 | 2.85 | 3.48 | 5.01 | 28 | 3.52 | 3.55 | 4.46 | 34 | 6.67 | 7.78 | 10.24 | athena: copied |
 | mover_cv5_mini_ecg_abp | f3 | mover/pipeline = 70bb2c2 | tzag_elita | Done | 11-12 10:10 | 11-12 10:18 | 11-12 11:12 | run_20261112_105646_mover_cv5_mini_ecg_abp_f3 | 155 / 38 / 39 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  | 11-12 10:18 | 11-12 10:20 | 2m | Done |  | cpu | 11-12 10:56 | 11-12 11:12 | 15m | Done | 5 | power-gpu | 122 | 2.94 | 3.93 | 5.63 | 27 | 2.62 | 3.51 | 5.03 | 32 | 5.92 | 7.01 | 9.88 | athena: copied |
 | mover_cv5_mini_ecg_abp | f4 | mover/pipeline = 70bb2c2 | tzag_elita | Done | 11-12 10:10 | 11-12 10:56 | 11-12 11:12 | run_20261112_105645_mover_cv5_mini_ecg_abp_f4 | 156 / 39 / 38 |  |  | minirocket | abp,ecg | v1 | ecg,abp | 60 | -30 |  |  |  |  | pap | 30 | 10 | median |  |  |  |  |  | 11-12 10:22 |  | Done |  | cpu | 11-12 10:56 | 11-12 11:12 | 16m | Done | 5 | power-gpu | 127 | 3.29 | 3.82 | 5.54 | 33 | 2.92 | 3.12 | 4.09 | 27 | 5.13 | 6.29 | 9.05 | athena: copied |
+| frames_v3_cv5_mcvp1hz_top10_30min_ppvwave | f0 | feat/rnn-council = 502506b | athena | In Curation | 11-12 14:37 | 11-12 14:38 |  |  | 940 / 314 / 314 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-12 14:38 |  | 0m |  |  | a100-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_30min_ppvwave | f2 | feat/rnn-council = 502506b | athena | In Curation | 11-12 14:37 | 11-12 14:38 |  |  | 941 / 313 / 314 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-12 14:38 |  | 0m |  |  | a100-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_30min_ppvwave | f1 | feat/rnn-council = 502506b | athena | Before Curation | 11-12 14:37 |  |  |  | 940 / 314 / 314 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median | a100-public,rtx6k-shared,l40s-shared,l40s-public | 0m |  |  |  |  |  |  |  | a100-public,rtx6k-shared,l40s-shared,l40s-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_30min_ppvwave | f3 | feat/rnn-council = 502506b | athena | Before Curation | 11-12 14:37 |  |  |  | 942 / 313 / 313 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median | a100-public,rtx6k-shared,l40s-shared,l40s-public | 0m |  |  |  |  |  |  |  | a100-public,rtx6k-shared,l40s-shared,l40s-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| frames_v3_cv5_mcvp1hz_top10_30min_ppvwave | f4 | feat/rnn-council = 502506b | athena | Before Curation | 11-12 14:37 |  |  |  | 941 / 314 / 313 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib,cond_tricuspid_valve,cond_cabg | 1800 | -1770 |  | pap | 30 | 10 | median | a100-public,rtx6k-shared,l40s-shared,l40s-public | 0m |  |  |  |  |  |  |  | a100-public,rtx6k-shared,l40s-shared,l40s-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_top10 | f0 | da2d40d | tzag_elita | Done | 11-07 04:17 | 11-07 04:17 | 11-07 07:42 | run_20261107_041739_frames_v3_cv5_top10_f0 | 940 / 314 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 04:17 | 11-07 07:42 | 3h25 | Done | 6 | sandbox | 265 | 2.77 | 3.83 | 6.78 | 94 | 1.50 | 3.75 | 9.14 | 103 | 3.30 | 4.48 | 7.46 |  |
 | frames_v3_cv5_top10 | f2 | da2d40d | tzag_elita | Done | 11-07 04:31 | 11-07 04:31 | 11-07 07:37 | run_20261107_043155_frames_v3_cv5_top10_f2 | 941 / 313 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 04:31 | 11-07 07:37 | 3h05 | Done | 6 | sandbox | 283 | 2.26 | 3.24 | 5.97 | 84 | 6.73 | 7.06 | 6.60 | 95 | 3.35 | 4.62 | 8.00 |  |
 | frames_v3_cv5_top10 | f1 | da2d40d | tzag_elita | Done | 11-07 07:37 | 11-07 07:37 | 11-07 10:48 | run_20261107_073750_frames_v3_cv5_top10_f1 | 940 / 314 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 07:37 | 11-07 10:48 | 3h10 | Done | 6 | sandbox | 273 | 2.37 | 3.28 | 5.72 | 95 | 3.32 | 3.36 | 3.25 | 94 | 3.39 | 4.87 | 8.31 |  |
@@ -131,7 +136,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 566/1024 | 458 | 60/64 | 4 | 0 | 0 |  |
+| athena | a100-public | 8 | 566/1024 | 458 | 60/64 | 4 | 2 | 0 |  |
 | athena | b200-shared | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 2/128 | 126 | 1/8 | 7 | 0 | 0 |  |
@@ -142,15 +147,20 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-shared | 2 | 146/256 | 110 | 14/16 | 2 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 152/256 | 104 | 15/16 | 1 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 152/256 | 104 | 15/16 | 1 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3436/4960 | 1524 | 204/248 | 44 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3468/4960 | 1492 | 208/248 | 40 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 106/128 | 22 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 3436/4960 | 1524 | 204/248 | 44 | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 3468/4960 | 1492 | 208/248 | 40 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 76/160 | 84 | 5/8 | 3 | 0 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
+| athena | 307840 | cur_frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_f0 | a100-public | 4h_0g | RUNNING | 0m | n307 | 3:59:58 | 8c 16G |
+| athena | 307841 | cur_frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_f2 | a100-public | 4h_0g | RUNNING | 0m | n307 | 3:59:58 | 8c 16G |
+| athena | 307844 | cur_frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_f4 | a100-public,rtx6k-shared,l40s-shared,l40s-public | 4h_0g | PENDING | 0m | Dependency | 4:00:00 | 8c 16G |
+| athena | 307843 | cur_frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_f3 | a100-public,rtx6k-shared,l40s-shared,l40s-public | 4h_0g | PENDING | 0m | Dependency | 4:00:00 | 8c 16G |
+| athena | 307842 | cur_frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_f1 | a100-public,rtx6k-shared,l40s-shared,l40s-public | 4h_0g | PENDING | 0m | Dependency | 4:00:00 | 8c 16G |
 
 ## Failures
 
