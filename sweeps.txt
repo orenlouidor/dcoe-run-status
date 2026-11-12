@@ -21,6 +21,10 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae @ feat/rnn-council   # 2026-11-12 
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_60min @ feat/rnn-council   # 2026-11-12 michael-v: ppvwave + 60 min of 1 Hz mCVP/HR (new curation)
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3 @ feat/rnn-council    # 2026-11-12 michael-v: ppvwave + head weight decay 3 (mean in a fixed bias)
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd30 @ feat/rnn-council   # 2026-11-12 michael-v: idem, weight decay 30; pick on validation
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_wd0p4 @ feat/rnn-council   # 2026-11-12 michael-v: L1 + head wd 0.4 (~wd3 under MSE)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_wd4 @ feat/rnn-council     # 2026-11-12 michael-v: L1 + head wd 4 (~wd30 under MSE); pick on validation
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_ks1 @ feat/rnn-council     # 2026-11-12 michael-v: ppvwave_mae, kernel_seed 1 (equal-weight ensemble)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_ks2 @ feat/rnn-council     # 2026-11-12 michael-v: ppvwave_mae, kernel_seed 2
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
