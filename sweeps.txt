@@ -16,6 +16,7 @@ frames_v3_cv5_ctx_all
 mover_cv5_mini_ecg @ mover/pipeline       # 2026-11-12 (Snir): MOVER SIS, the banks_mini_f3 recipe, ECG; data on IUCC only
 mover_cv5_mini_ecg_abp @ mover/pipeline   # idem, ECG + ABP
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave @ feat/rnn-council   # 2026-11-12 michael-v: best arm with DC-honest waveform features (valid convs, PPV only on ECG+CVP) -- the jitter fix
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_gru1hz @ feat/rnn-council   # 2026-11-12 michael-v: ppvwave + causal GRU (h32) over the 30 min 1 Hz mCVP/HR
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
