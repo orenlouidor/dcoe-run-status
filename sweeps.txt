@@ -36,6 +36,10 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd9_k1536 @ exp/mpap-focus      # 2026
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_noecg @ exp/mpap-focus      # 2026-11-12 (Snir, mPAP focus): wd3 without the ECG waveform (the other banks keep their kernels)
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_trainval @ exp/mpap-focus   # 2026-11-12 (Snir, mPAP focus): wd3 trained on four holds for a fixed 6 epochs; lists on IUCC only (new train curation)
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_echo @ exp/mpap-focus       # 2026-11-12 (Snir, mPAP focus): wd3 + the latest echo's PASP / has / age / PH grade (new curation)
+frames_v3_cv5_cardiac_mcvp1hz_20min_cond5_ppvwave_wd3 @ exp/cardiac-units-log            # 2026-11-13 (Oren): wd3 with 20 min of 1 Hz, CSRU/CCU/SICU patients without congenital, inputs = tricuspid + AF conditions, IABP on, pacemaker on, vent support; lists on IUCC only
+frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3 @ exp/cardiac-units-log            # 2026-11-13 (Oren): idem + the mitral-valve condition
+frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel @ exp/cardiac-units-log   # 2026-11-13 (Oren): cond6 trained on the log label (same curation)
+frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout @ exp/cardiac-units-log     # 2026-11-13 (Oren): cond6 with an exponential on the model output, loss in mmHg (same curation)
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
