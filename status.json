@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13 20:03:00",
+ "generated": "2026-11-13 20:07:26",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -11165,7 +11165,7 @@
    "3.06",
    "4.24",
    "7.52",
-   "athena: copying"
+   "athena: copied"
   ],
   [
    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel",
@@ -11222,7 +11222,7 @@
    "2.92",
    "3.95",
    "6.89",
-   "athena: queued"
+   "athena: copying"
   ],
   [
    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout",
@@ -11507,7 +11507,7 @@
    "3.04",
    "4.25",
    "7.64",
-   "athena: copying"
+   "athena: copied"
   ],
   [
    "frames_v3_cv5_top10",
@@ -14448,9 +14448,9 @@
     "athena",
     "rtx6k-shared",
     "2",
-    "144/256",
-    "112",
-    "16/16",
+    "128/256",
+    "128",
+    "14/16",
     "0",
     "0",
     "0",
@@ -14460,9 +14460,9 @@
     "athena",
     "rtx6k-shocher",
     "2",
-    "144/256",
-    "112",
-    "16/16",
+    "128/256",
+    "128",
+    "14/16",
     "0",
     "0",
     "0",
@@ -14472,10 +14472,10 @@
     "tzag_elita",
     "compute-gpu",
     "31",
-    "3482/4960",
-    "1478",
-    "236/248",
-    "12",
+    "3410/4960",
+    "1550",
+    "231/248",
+    "17",
     "0",
     "0",
     ""
@@ -14484,8 +14484,8 @@
     "tzag_elita",
     "cpu",
     "2",
-    "30/128",
-    "98",
+    "26/128",
+    "102",
     "",
     "",
     "0",
@@ -14496,10 +14496,10 @@
     "tzag_elita",
     "power-gpu",
     "31",
-    "3482/4960",
-    "1478",
-    "236/248",
-    "12",
+    "3410/4960",
+    "1550",
+    "231/248",
+    "17",
     "0",
     "0",
     ""
@@ -14539,9 +14539,9 @@
     "sandbox",
     "sandbox_spot_720",
     "RUNNING",
-    "1h10",
+    "1h15",
     "sandbox",
-    "2:49:10",
+    "2:44:44",
     "4c 32G"
    ]
   ]
@@ -14560,13 +14560,24 @@
   ],
   "rows": [
    [
-    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout",
+    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel",
     "f4",
     "tzag_elita",
     "athena",
     "copying",
-    "11-13 20:02",
+    "11-13 20:07",
     "0m",
+    "1",
+    ""
+   ],
+   [
+    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout",
+    "f4",
+    "tzag_elita",
+    "athena",
+    "done",
+    "11-13 20:02",
+    "4m",
     "1",
     ""
    ],
@@ -14575,9 +14586,9 @@
     "f3",
     "tzag_elita",
     "athena",
-    "copying",
+    "done",
     "11-13 20:02",
-    "0m",
+    "4m",
     "1",
     ""
    ],
@@ -14601,17 +14612,6 @@
     "11-13 19:57",
     "5m",
     "1",
-    ""
-   ],
-   [
-    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel",
-    "f4",
-    "tzag_elita",
-    "athena",
-    "pending",
-    "",
-    "",
-    "0",
     ""
    ],
    [
