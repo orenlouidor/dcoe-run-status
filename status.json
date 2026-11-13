@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13 19:57:23",
+ "generated": "2026-11-13 20:03:00",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -10937,7 +10937,7 @@
    "2.94",
    "4.11",
    "7.41",
-   "athena: copying"
+   "athena: copied"
   ],
   [
    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel",
@@ -11165,7 +11165,7 @@
    "3.06",
    "4.24",
    "7.52",
-   "athena: queued"
+   "athena: copying"
   ],
   [
    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel",
@@ -11450,7 +11450,7 @@
    "3.14",
    "4.46",
    "8.18",
-   "athena: copying"
+   "athena: copied"
   ],
   [
    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout",
@@ -11463,7 +11463,7 @@
    "11-13 19:57",
    "run_20261113_194736_frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout_f4",
    "724 / 251 / 245",
-   "",
+   "11-13 19:56 trn 352871 cancelled: the fold was already done",
    "",
    "rocket",
    "cvp,ecg,mcvp,hr",
@@ -11507,7 +11507,7 @@
    "3.04",
    "4.25",
    "7.64",
-   "athena: queued"
+   "athena: copying"
   ],
   [
    "frames_v3_cv5_top10",
@@ -14340,8 +14340,8 @@
     "athena",
     "a100-public",
     "8",
-    "419/1024",
-    "605",
+    "456/1024",
+    "568",
     "56/64",
     "0",
     "0",
@@ -14448,10 +14448,10 @@
     "athena",
     "rtx6k-shared",
     "2",
-    "136/256",
-    "120",
-    "15/16",
-    "1",
+    "144/256",
+    "112",
+    "16/16",
+    "0",
     "0",
     "0",
     ""
@@ -14460,10 +14460,10 @@
     "athena",
     "rtx6k-shocher",
     "2",
-    "136/256",
-    "120",
-    "15/16",
-    "1",
+    "144/256",
+    "112",
+    "16/16",
+    "0",
     "0",
     "0",
     ""
@@ -14472,8 +14472,8 @@
     "tzag_elita",
     "compute-gpu",
     "31",
-    "3414/4960",
-    "1546",
+    "3482/4960",
+    "1478",
     "236/248",
     "12",
     "0",
@@ -14484,8 +14484,8 @@
     "tzag_elita",
     "cpu",
     "2",
-    "26/128",
-    "102",
+    "30/128",
+    "98",
     "",
     "",
     "0",
@@ -14496,8 +14496,8 @@
     "tzag_elita",
     "power-gpu",
     "31",
-    "3414/4960",
-    "1546",
+    "3482/4960",
+    "1478",
     "236/248",
     "12",
     "0",
@@ -14539,9 +14539,9 @@
     "sandbox",
     "sandbox_spot_720",
     "RUNNING",
-    "1h05",
+    "1h10",
     "sandbox",
-    "2:54:47",
+    "2:49:10",
     "4c 32G"
    ]
   ]
@@ -14561,12 +14561,34 @@
   "rows": [
    [
     "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout",
+    "f4",
+    "tzag_elita",
+    "athena",
+    "copying",
+    "11-13 20:02",
+    "0m",
+    "1",
+    ""
+   ],
+   [
+    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel",
     "f3",
     "tzag_elita",
     "athena",
     "copying",
-    "11-13 19:57",
+    "11-13 20:02",
     "0m",
+    "1",
+    ""
+   ],
+   [
+    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout",
+    "f3",
+    "tzag_elita",
+    "athena",
+    "done",
+    "11-13 19:57",
+    "5m",
     "1",
     ""
    ],
@@ -14575,25 +14597,14 @@
     "f4",
     "tzag_elita",
     "athena",
-    "copying",
+    "done",
     "11-13 19:57",
-    "0m",
+    "5m",
     "1",
     ""
    ],
    [
     "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel",
-    "f4",
-    "tzag_elita",
-    "athena",
-    "pending",
-    "",
-    "",
-    "0",
-    ""
-   ],
-   [
-    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout",
     "f4",
     "tzag_elita",
     "athena",
@@ -14645,17 +14656,6 @@
     "11-13 19:47",
     "4m",
     "1",
-    ""
-   ],
-   [
-    "frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel",
-    "f3",
-    "tzag_elita",
-    "athena",
-    "pending",
-    "",
-    "",
-    "0",
     ""
    ],
    [
