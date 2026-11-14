@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-14 09:46:00 (Israel time)
+# DCOE sweeps -- status at 2026-11-14 09:50:57 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.6 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -263,20 +263,20 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | h200-dds | 1 | 59/128 | 69 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 59/128 | 69 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 120/128 | 8 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 24/128 | 104 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 144/256 | 112 | 16/16 | 0 | 0 | 0 |  |
+| athena | l40s-public | 1 | 21/128 | 107 | 7/8 | 1 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 141/256 | 115 | 15/16 | 1 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 127/256 | 129 | 14/16 | 2 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 127/256 | 129 | 14/16 | 2 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2624/4960 | 2336 | 179/248 | 69 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 24/128 | 104 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2624/4960 | 2336 | 179/248 | 69 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2568/4960 | 2392 | 170/248 | 78 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 12/128 | 116 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2568/4960 | 2392 | 170/248 | 78 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 36/160 | 124 | 2/8 | 6 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 354818 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 2h51 | sandbox | 1:08:36 | 4c 32G |
+| tzag_elita | 354818 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 2h56 | sandbox | 1:03:39 | 4c 32G |
 
 ## Failures
 
