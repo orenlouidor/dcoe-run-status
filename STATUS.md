@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-14 03:57:24 (Israel time)
+# DCOE sweeps -- status at 2026-11-14 04:02:23 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.6 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -267,16 +267,16 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-shared | 2 | 168/256 | 88 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 144/256 | 112 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 144/256 | 112 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3444/4960 | 1516 | 248/248 | 0 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 18/128 | 110 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 3444/4960 | 1516 | 248/248 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3324/4960 | 1636 | 232/248 | 16 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 22/128 | 106 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 3324/4960 | 1636 | 232/248 | 16 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 46/160 | 114 | 3/8 | 5 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 354109 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h03 | sandbox | 2:56:28 | 4c 32G |
+| tzag_elita | 354109 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h08 | sandbox | 2:51:29 | 4c 32G |
 
 ## Failures
 
